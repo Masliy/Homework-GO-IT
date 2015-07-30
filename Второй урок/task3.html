@@ -5,6 +5,72 @@
 <title> Задание номер 3 </title>
 </head>
 	<body>
+			<form action = "/">
+				Name<br>
+				<input name="name" required><br><br>
+				Email<br>
+				<input type="email" name="email" required>
+			
+				<p>Sex<br>
+				<input type="radio" name="male" value="male">Male
+				<input type="radio" name="female" value="female">Female</p>
+			
+				Current status<br>
+				<input type="checkbox" name="answer1" value="Student">Student<br>
+				<input type="checkbox" name="answer2" value="Employed">Employed<br>
+				<input type="checkbox" name="answer3" value="Unemployed">Unemployed
+			
+				<p>Month and Year of birth<br>
+				<select name = "month">	
+					<option value = "January"> January</option>
+					<option value = "February">February</option>
+					<option value = "March">March</option>
+					<option value = "May">May</option>
+					<option value = "June">June</option>
+					<option value = "July">July</option>
+					<option value = "August" selected="selected">August</option>
+					<option value = "September">September</option>
+					<option value = "October">October</option>
+					<option value = "November">November</option>
+					<option value = "December">December</option>
+				</select>
 				
+				<select name = "year">	
+					<option value = "1980"> 1980</option>
+					<option value = "1981">1981</option>
+					<option value = "1982">1982</option>
+					<option value = "1983" selected="selected">1983</option>
+					<option value = "1984">1984</option>
+					<option value = "1985">1985</option>
+					<option value = "1986">1987</option>
+					<option value = "1988">1988</option>
+					<option value = "1989">1989</option>
+					<option value = "1990">1990</option>
+				</select></p>
+			
+				Skills and Technologies<br>
+				<select name = "skills" size = "10" multiple = "multiple">
+					<optgroup label="Tech skills">
+					<option value="HTML">HTML</option>
+					<option value="CSS">CSS</option>
+					<option value="JavaScript">JavaScript</option>
+					<option value="git">git</option>
+					</optgroup>
+					<optgroup label="Soft skills">
+					<option value="tm">Time menegement</option>
+					<option value="pr">Proactivity</option>
+					<option value="tw">Teamwork</option>
+					<option value="lead">Leadership</option>
+					</optgroup>
+				</select>
+				
+				<p>Photo<br>
+				<input type="file" name="file"></p>
+				
+				Comments<br>
+				<textarea rows="4" cols="20" placeholder = "Напиши шось)"name="mytext"></textarea>
+				
+				<p><input type="button" value="Save"></p>
+			</form>
 	</body>
 </html>
