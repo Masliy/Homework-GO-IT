@@ -1,0 +1,7 @@
+header + p {
+	text-transform: uppercase;
+	}
+p:nth-child(3n+1)
+	{
+	color: \#999;
+	}
