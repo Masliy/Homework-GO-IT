@@ -1,0 +1,10 @@
+div [href*="google"] {
+	color: \#666;
+	}
+	
+div [href*="ya"] {
+	color: #f70;
+	}
+
+
+
