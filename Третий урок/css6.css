@@ -28,9 +28,7 @@ div input:checked  ~ label[for*="blue"] {
 input:checked  ~ label[for*="red"] ~.red{
 	color: white;
 	border-radius: 5px;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-bottom: 3px;
+	padding:0 5px 3px 5px;
 	background-color: red;
 	display: inline;
 	}
@@ -38,18 +36,14 @@ input:checked  ~ label[for*="green"] ~.green {
 	color: white;
 	border-radius: 5px;
 	text-align: justify;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-bottom: 3px;
+	padding:0 5px 3px 5px;
 	background-color: green;
 	display: inline;
 	}	
 input:checked  ~ label[for*="blue"] ~.blue{
 	color: white;
 	border-radius: 5px;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-bottom: 3px;
+	padding:0 5px 3px 5px;
 	background-color: blue;
 	display: inline;
 	}	
