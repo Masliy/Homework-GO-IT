@@ -15,24 +15,24 @@ label[for*="blue"] {
 	text-decoration: underline;
 	}
 	
-div input:checked  ~ label[for*="red"] {
+div input[id="red"]:checked  ~ label[for*="red"] {
 	color: red;
 	}
-div input:checked  ~ label[for*="green"] {
+div input[id="green"]:checked  ~ label[for*="green"] {
 	color: green;
 	}	
-div input:checked  ~ label[for*="blue"] {
+div input[id="blue"]:checked  ~ label[for*="blue"] {
 	color: blue;
 	}
 	
-input:checked  ~ label[for*="red"] ~.red{
+input[id="red"]:checked  ~ label[for="red"] ~.red{
 	color: white;
 	border-radius: 5px;
 	padding:0 5px 3px 5px;
 	background-color: red;
 	display: inline;
 	}
-input:checked  ~ label[for*="green"] ~.green {
+input[id="green"]:checked  ~ label[for="green"] ~.green {
 	color: white;
 	border-radius: 5px;
 	text-align: justify;
@@ -40,7 +40,7 @@ input:checked  ~ label[for*="green"] ~.green {
 	background-color: green;
 	display: inline;
 	}	
-input:checked  ~ label[for*="blue"] ~.blue{
+input[id="blue"]:checked  ~ label[for="blue"] ~.blue{
 	color: white;
 	border-radius: 5px;
 	padding:0 5px 3px 5px;
