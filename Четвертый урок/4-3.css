@@ -1,21 +1,25 @@
 div{
-	width: 100%;
-	text-align: center;
-	font: 18px Impact;
+	width: 700px;
+	font: 16px Impact;
 	color: #A020F0;
-	}	
+	background-color: #F5F5F5;
+}	
 li {
-	padding: 5px 20px 5px 2	0px;
+	padding: 5px 10px 5px 10px;
+	margin: 4px;
 	display: inline-block;
-	list-style-type: none;
 	border-radius: 5px;
 	border: 1px solid grey;
-	}
-li:checked {
+}
+li:nth-of-type(5){
 	color: white;
 	background-color: #A020F0;
-	}	
-.list {
-	width: 900px;
-	margin: auto;
-	}
+}	
+span {
+	margin: 10px;
+}
+.list #not {
+	border: 0px solid red;
+	position:relative;
+	top: 7px;
+}
