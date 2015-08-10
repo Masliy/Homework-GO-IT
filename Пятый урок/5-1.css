@@ -18,7 +18,7 @@ li ul {
 	top: 32px;
 }
 	
-div li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
+li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
 	color: #B5B5B5;
 	background-color: #F8F8FF;	
     visibility:visible;
@@ -28,7 +28,7 @@ div li:hover ul{ /* Выводим выпадающий пункт при нав
 	padding: 5px 10px 5px 10px;
 	box-sizing: border-box;
 }	
-div li:hover {
+li:hover {
 	color: #B5B5B5;
 	background-color: #F8F8FF;
 }
