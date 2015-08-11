@@ -1,3 +1,6 @@
+body div {
+	position: relative;	
+}
 div{
 	background-color: #1E90FF;
 	width: 100%;
@@ -5,7 +8,6 @@ div{
 	font: 18px Impact;
 	color: white;
 	height: 30px;
-
 }	
 li {
 	padding: 5px 10px 5px 10px;
@@ -15,9 +17,8 @@ li ul {
 	list-style:none;
 	position:absolute;
 	visibility:hidden;
-	top: 48px;
+	top: 30px;
 	height: 30px;
-	
 }
 	
 li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
