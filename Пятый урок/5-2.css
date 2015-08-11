@@ -81,15 +81,14 @@ li::before {
 li {
 	padding-top: 10px;
 	height: 23px;
-	background-color: #ddebf7;
+	background-color: #F0F8FF;
 	border: 1px solid white;
 	
 	
 }
 li:nth-child(2n) {
-	background-color: #E8E8E8;
+	background-color: #F5F5F5;
 	padding-top: 10px;
-	
 	}
 
 
