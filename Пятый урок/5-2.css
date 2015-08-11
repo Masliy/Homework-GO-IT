@@ -1,24 +1,46 @@
-body:first-child{
+div {
 	background-color: #FF7F24;
 	color: white;
 	font: bold 22px Arial;
-	width: 200px;
-	height: 300px;
+	width: 300px;
+	height: 470px;
 	position: relative;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 25px;
 	box-sizing: border-box;
 	border-radius: 5px;
+	margin: auto;
 }
--body div {
+.second{
+	font: 22px Arial;
+	background-color: white;
+	color: black;
+	position: absolute;
+	top: 70px;
+	text-align: center;
+	width: 290px;
+	height: 370px;
+	margin: 5px;
+	box-sizing: content-box;
+	border: none;
+	padding-top: 20px;
+}
+input{
+	font: bold 14px Arial;
 	background-color: #FF7F24;
 	color: white;
-	font: bold 22px Arial;
-	width: 200px;
-	height: 300px;
-	position: relative;
 	text-align: center;
-	padding-top: 20px;
-	box-sizing: border-box;
+	position: absolute;
+	bottom: 30px;
+	left: 20px;
+	right: 20px;
+	width: 260px;
+	height: 40px;
 	border-radius: 5px;
+	border: none;
+	border-bottom: 3px solid #CD661D;
+	
+	
+	
+	
 }
