@@ -1,7 +1,7 @@
 div {
 	background-color: #FF7F24;
 	color: white;
-	font: bold 22px Arial;
+	font: bold 22px Trebuchet MS;
 	width: 300px;
 	height: 470px;
 	position: relative;
@@ -12,7 +12,7 @@ div {
 	margin: auto;
 }
 .second{
-	font: 22px Arial;
+	font: 22px Trebuchet MS;
 	background-color: white;
 	color: black;
 	position: absolute;
@@ -26,7 +26,7 @@ div {
 	padding-top: 20px;
 }
 input{
-	font: bold 14px Arial;
+	font: bold 14px Trebuchet MS;
 	background-color: #FF7F24;
 	color: white;
 	text-align: center;
@@ -38,9 +38,59 @@ input{
 	height: 40px;
 	border-radius: 5px;
 	border: none;
-	border-bottom: 3px solid #CD661D;
-	
-	
-	
-	
+	border-bottom: 3px solid #CD661D;	
 }
+span {
+	position: absolute;
+	top: 55px;
+	left:95px;
+	font: bold 60px Trebuchet MS;
+	text-align: center;	
+}
+sup {
+	position: absolute;
+	top: 60px;
+	left: 80px;
+	font: bold 20px Trebuchet MS;
+}
+sub {
+	font: bold 18px Trebuchet MS;
+	position: absolute;
+	top: 103px;
+	left: 165px;
+}
+ul {
+	color: grey;
+	font:16px Trebuchet MS;
+	position: absolute;
+	top: 210px;
+	list-style: none;
+	text-align: left;
+	border: 1px solid black;
+	left: 20px;
+	right: 20px;
+	width: 260px;
+	box-sizing: border-box;
+	padding: 5px 0 5px 15px;
+}
+li::before {
+	 content: url(favicon.ico);
+	 width: 20px;
+	 height: 20px;
+	 padding-left: 20px;
+	 padding-right: 15px;
+}
+li {
+	height: 40px;
+	line-height: 2px;
+}
+li:nth-child(2n) {
+	background-color: #ddebf7;
+	}
+	
+td:nth-child(2n+3) {
+	background-color: #f2f2de;
+	}
+
+
+
