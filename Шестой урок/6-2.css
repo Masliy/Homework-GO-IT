@@ -1,0 +1,75 @@
+div {
+	width: 1400px;
+	height: 315px;
+	background-color: black;
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 50px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+#WHAT {
+	color: #EE8129;
+	font: 40px Trebuchet MS;
+}
+#CLIENT_SAYS {
+	color: #3170A8;
+	font: 40px Trebuchet MS;
+}
+img{
+position: absolute;
+top: 135px;
+left: 180px;
+}
+.gerl_speech {
+	font: 14px Trebuchet MS;
+	color: #737373;
+	background-color: #F7F7F7;
+	width: 400px;
+	overflow: hidden;
+	height: 100px;
+	left: 300px;
+	top:37px;
+	position: relative;
+	text-align: left;
+	padding-left: 20px;
+}
+.triangle {
+	position: absolute;
+	top: 170px;
+	left: 271px;
+	border: 15px solid red;
+	border-color: transparent #F7F7F7 transparent transparent;
+	display: inline-block;
+	z-index: 1;
+}
+p {
+	border-bottom: 1px dotted black;
+	width: 360px;
+	color: #3170A8;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.name {
+		text-align: left;
+		box-sizing: border-box;
+		border-bottom: 1px dotted black;
+		position: absolute;
+		top: 10px;
+		left: 20px;
+		padding-bottom: 10px;
+		font: italic 14px Trebuchet MS;
+}
+
+.customer {
+		float: right;
+		color: red;
+		box-sizing: border-box;
+		color:#3070A8;
+		font: italic 14px Trebuchet MS;
+}
+
+
+
+
