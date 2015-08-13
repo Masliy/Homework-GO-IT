@@ -21,6 +21,8 @@ div {
 .best_value_block {
 	height: 500px;
 	top: 25px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	z-index: 1;
 }
 .ultimate_block{
 	background-color:#00B89A;

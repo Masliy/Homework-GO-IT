@@ -1,7 +1,8 @@
+
 div {
 	width: 1400px;
 	height: 315px;
-	background-color: black;
+	background-image: url(back.png);
 	border: 1px solid black;
 	text-align: center;
 	padding-top: 50px;
@@ -17,21 +18,38 @@ div {
 	color: #3170A8;
 	font: 40px Trebuchet MS;
 }
-img{
-position: absolute;
-top: 135px;
-left: 180px;
+img {
+	position: absolute;
+	top: 135px;
+	left: 180px;
 }
+img[src*="man"] {
+	left: 720px;
+}
+
 .gerl_speech {
 	font: 14px Trebuchet MS;
 	color: #737373;
 	background-color: #F7F7F7;
-	width: 400px;
+	background-image: none;
+	width: 380px;
 	overflow: hidden;
 	height: 100px;
 	left: 300px;
 	top:37px;
-	position: relative;
+	text-align: left;
+	padding-left: 20px;
+}
+.man_speech {
+	font: 14px Trebuchet MS;
+	color: #737373;
+	background-color: #F7F7F7;
+	background-image: none;
+	width: 380px;
+	overflow: hidden;
+	height: 100px;
+	left: 840px;
+	top:-62px;
 	text-align: left;
 	padding-left: 20px;
 }
@@ -39,14 +57,21 @@ left: 180px;
 	position: absolute;
 	top: 170px;
 	left: 271px;
-	border: 15px solid red;
+	border: 15px solid;
 	border-color: transparent #F7F7F7 transparent transparent;
-	display: inline-block;
+	z-index: 1;
+}
+.triangle1 {
+	position: absolute;
+	top: 170px;
+	left: 811px;
+	border: 15px solid;
+	border-color: transparent #F7F7F7 transparent transparent;
 	z-index: 1;
 }
 p {
 	border-bottom: 1px dotted black;
-	width: 360px;
+	width: 340px;
 	color: #3170A8;
 	box-sizing: border-box;
 	margin: 0 auto;
@@ -61,7 +86,6 @@ p {
 		padding-bottom: 10px;
 		font: italic 14px Trebuchet MS;
 }
-
 .customer {
 		float: right;
 		color: red;
