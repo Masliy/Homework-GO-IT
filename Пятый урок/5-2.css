@@ -22,7 +22,7 @@ div {
 	height: 370px;
 	margin: 5px;
 	box-sizing: content-box;
-	border: none;
+	border-radius: 0px;
 	padding-top: 20px;
 }
 input{
