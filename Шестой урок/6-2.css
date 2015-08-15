@@ -1,6 +1,5 @@
-
 div {
-	width: 1400px;
+    width: 1400px;
 	height: 315px;
 	background-image: url(back.png);
 	border: 1px solid black;
@@ -8,15 +7,13 @@ div {
 	padding-top: 50px;
 	box-sizing: border-box;
 	position: relative;
+    font: 40px Trebuchet MS;
 }
-
 #what {
 	color: #EE8129;
-	font: 40px Trebuchet MS;
 }
 #client_says {
 	color: #3170A8;
-	font: 40px Trebuchet MS;
 }
 img {
 	position: absolute;
@@ -31,7 +28,7 @@ img[src*="man"] {
 	color: #737373;
 	background-color: #F7F7F7;
 	background-image: none;
-	width: 380px;
+	width: 27.1%;
 	overflow: hidden;
 	height: 100px;
 	left: 300px;
@@ -62,7 +59,6 @@ img[src*="man"] {
 .triangle2 {
 	top: 170px;
 	left: 811px;
-
 }
 p {
 	border-bottom: 1px dotted black;
@@ -88,7 +84,3 @@ p {
 		color:#3070A8;
 		font: italic 14px Trebuchet MS;
 }
-
-
-
-
