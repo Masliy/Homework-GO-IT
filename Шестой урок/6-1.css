@@ -9,65 +9,60 @@ div {
 	text-align: center;
 	padding-top: 25px;
 	box-sizing: border-box;
-	border-radius: 5px;
 	margin: 0px auto;
 	float: left;
 }
+h1 {
+    font: bold 30px Trebuchet MS;
+    padding-left: 50px;
+}
 .standart_block {
 	background-color:#2BC2D4;
-	border-top-right-radius: 0px;
+	border-top-left-radius: 5px;
 	border-bottom-left-radius: 6px;
 }
 .best_value_block {
 	height: 500px;
 	top: 25px;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	box-shadow: 0 0 10px rgba(0,0,0,.5); /* Параметры тени */
+    border-radius: 5px;
 	z-index: 1;
 }
 .ultimate_block{
 	background-color:#00B89A;
-	border-top-left-radius: 0px;
-	border-bottom-right-radius: 6px;
+	border-top-right-radius: 5px;
+    border-bottom-right-radius: 6px;   /*это нужно для того чтобы край основгого ultimate не*/ 
+    border-bottom-left-radius: 6px;    /*выглядывал*/
 }
-.standart{
+.general_for_inside {
 	background-color:white;
 	color: black;
 	position: absolute;
 	top: 75px;
-	border: 1px solid #E8EAEC;
-	border-right: none;
-	border-top: none;
+	border: none;
+    border-radius: none;
 	height: 395px;
-	border-radius: 0px;
+}
+.standart_inside {
+	border-left: 1px solid #E8EAEC;
+    border-bottom: 1px solid #E8EAEC;
+	height: 395px;
 	border-bottom-left-radius: 5px;
 }
-.best_value{
+.best_value_inside{
 	font: 22px Trebuchet MS;
-	background-color: white;
-	color: black;
-	position: absolute;
 	top: 85px;
-	text-align: center;
 	width: 290px;
 	height: 405px;
 	margin: 5px;
 	box-sizing: border-box;
-	border: none;
 	padding-top: 25px;
-	border-radius: 0px;
 }
-.ultimate{
-	background-color:white;
-	color: black;
-	position: absolute;
-	top: 75px;
-	border: 1px solid #E8EAEC;
-	border-left: none;
-	border-top: none;
+.ultimate_inside{
+	border-right: 1px solid #E8EAEC;
+    border-bottom: 1px solid #E8EAEC;
 	height: 395px;
-	border-radius: 0px;
-	border-bottom-right-radius: 5px;
-
+    border-bottom-right-radius: 5px;
 }
 .blue_input {
 	background-color: #2F70A8;
