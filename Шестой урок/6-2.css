@@ -26,8 +26,7 @@ img {
 img[src*="man"] {
 	left: 720px;
 }
-
-.gerl_speech {
+.general_speech {
 	font: 14px Trebuchet MS;
 	color: #737373;
 	background-color: #F7F7F7;
@@ -40,18 +39,13 @@ img[src*="man"] {
 	text-align: left;
 	padding-left: 20px;
 }
+.gerl_speech {
+	left: 300px;
+	top:37px;
+}
 .man_speech {
-	font: 14px Trebuchet MS;
-	color: #737373;
-	background-color: #F7F7F7;
-	background-image: none;
-	width: 380px;
-	overflow: hidden;
-	height: 100px;
 	left: 840px;
 	top:-62px;
-	text-align: left;
-	padding-left: 20px;
 }
 .triangle {
 	position: absolute;
@@ -62,12 +56,13 @@ img[src*="man"] {
 	z-index: 1;
 }
 .triangle1 {
-	position: absolute;
+	top: 170px;
+	left: 271px;
+}
+.triangle2 {
 	top: 170px;
 	left: 811px;
-	border: 15px solid;
-	border-color: transparent #F7F7F7 transparent transparent;
-	z-index: 1;
+
 }
 p {
 	border-bottom: 1px dotted black;
