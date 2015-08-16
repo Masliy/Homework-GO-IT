@@ -1,0 +1,90 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #c0c0c0;
+}
+.main_table {
+    width: 1400px;
+    height: 100%;
+    background-color: white;
+    position: relative; 
+}
+
+.back_nout, 
+.blue_box,
+.grey_box {
+    width: 1400px;
+    height: 400px;
+    position: absolute;
+    top: 100px;
+}
+.blue_box {
+    z-index: 1;
+    background-color: #0A6AC3;
+    opacity: .2;
+}
+.grey_box {
+    z-index: 1;
+    background-color: #7C94A7;
+    opacity: .2;
+}
+.back_nout {
+    z-index: 1;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
