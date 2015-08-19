@@ -1,45 +1,43 @@
-html {
-    height: 100%;
-}
 body {
     height: 100%;
     width: 1400px;
     margin: 0 auto;
     background-color: #c0c0c0;
 }
-.main_table {
+.main_table{
     width: 1400px;
     height: 100%;
     background-color: white;
+}
+img {
     position: relative; 
+    top: 45px;
+}
+.company_name{
+    position: relative;
+    left: 190px;
+    top: 45px;
+}
+#name {
+    color: #3070A8;
+    font: bold 36px "FuturaBT Book";
+}
+#company {
+    color: #EE8129;
+    font: 36px Tahoma;
 }
 
-.back_nout, 
-.blue_box,
-.grey_box {
-    width: 1400px;
-    height: 400px;
-    position: absolute;
-    top: 100px;
-}
-.blue_box {
-    z-index: 1;
-    background-color: #0A6AC3;
-    opacity: .2;
-}
-.grey_box {
-    z-index: 1;
-    background-color: #7C94A7;
-    opacity: .2;
-}
-.back_nout {
-    z-index: 1;
-    opacity: 0.8;
-}
-
-
-
-
+.list li {
+	display: inline-block;
+    float: left;
+    margin-left: 30px;
+    color: #989898;
+    font: 14px "Open Sans Semibold";
+	}
+.list{
+    margin-right: 190px;
+    float: right;
+	}
 
 
 
