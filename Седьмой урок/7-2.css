@@ -102,7 +102,6 @@ label {
     color: #a7a7a7;
     width: 310px;
     font: 14px "Open Sans Semibold", serif;
-    border: 1px solid black;
     line-height: 1.8em; 
 }
 .middle_left_column {
@@ -111,7 +110,11 @@ label {
 }
 .middle_center_column {
     position: absolute;
-    left: 250px;
+    left: 245px;
+}
+.middle_right_column {
+    position: absolute;
+    left: 600px;
 }
 .middle_big_blue_letter {
     position: relative;
