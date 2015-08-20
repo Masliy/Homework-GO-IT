@@ -1,21 +1,31 @@
-body {
-    width: 1400px;
-    margin: 0 auto;
+.try {
+    position: absolute;
+    left: 190px;
+    border: 1px solid red;
+    width: 1020px;
+    height: 3310px;
+    z-index: 1;
+}
+html {
     background-color: #c0c0c0;
-    text-align: center;
 }
 .main_table{
+    position: relative;
+    margin: 0 auto;
+    top: -10px;
     width: 1400px;
     background-color: white;
+    height: 3310px;
+    text-align: center;
 }
 img[src="img/Banner1.png"] {
     position: relative; 
-    top: 10px;
+    top: 10px; 
 }
 .company_name{
     position: relative;
     top: 35px;
-    left: 190px;
+    left: 175px;
     width: 300px;
 }
 .name {
@@ -46,7 +56,7 @@ img[src="img/Banner1.png"] {
 }
 .list li {
     display: inline-block;
-    padding: 0 20px;
+    padding-left: 40px;
     font: 14px "Open Sans Semibold", serif;
 }
 .list{
@@ -82,11 +92,34 @@ label {
 }
 .middle {
    position: absolute;
-    margin: -200px 300px ;
+    margin: -190px 300px ;
     color: #41525c;
     font: bold 30px "Trebuchet MS", serif;
 }
 
+.middle_column {
+    margin-top: 70px;
+    color: #a7a7a7;
+    width: 310px;
+    font: 14px "Open Sans Semibold", serif;
+    border: 1px solid black;
+    line-height: 1.8em; 
+}
+.middle_left_column {
+    position: absolute;
+    left: -110px;
+}
+.middle_center_column {
+    position: absolute;
+    left: 250px;
+}
+.middle_big_blue_letter {
+    position: relative;
+    top: 20px;
+    color: #3070A8;
+    width: 310px;
+    font: 30px "Open Sans Semibold", serif;
+}
 
 
 
