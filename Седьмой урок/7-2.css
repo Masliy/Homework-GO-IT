@@ -24,7 +24,7 @@ img[src="img/Banner1.png"] {
 }
 .company_name{
     position: relative;
-    top: 35px;
+    top: 27px;
     left: 175px;
     width: 300px;
 }
@@ -39,25 +39,31 @@ img[src="img/Banner1.png"] {
 .first_row {
     color: white;
     font: 36px serif;
-    text-align: center;
+    position: relative;
+    top: 3px;
+    left: -25px;
 }
 .we_are {
     color: white;
     font: bold 48px "Futura Md BT", serif;
     position: relative;
-    top: -450px;
+    top: -445px;
 }
 .lorem {
     color: white;
     font: italic 20px Calibri, serif;
     position: relative;
-    top: -420px;
+    top: -430px;
+    left: -9px;
     line-height: 30px;
 }
 .list li {
     display: inline-block;
+    position: relative;
     padding-left: 40px;
-    font: 14px "Open Sans Semibold", serif;
+    right: -4px;
+    top: -6px;
+    font: 14px "Open Sans";
 }
 .list{
     margin-right: 190px;
@@ -86,13 +92,13 @@ label {
     color: white;
     border: 1px solid #9AABB7;
     position: relative;
-    top: -375px;
-    left: -10px;
-    padding: 15px 60px 15px 60px;
+    top: -374px;
+    left: -9px;
+    padding: 17px 58px 17px 71px;
 }
 .middle {
    position: absolute;
-    margin: -190px 300px ;
+    margin: -187px 312px ;
     color: #41525c;
     font: bold 30px "Trebuchet MS", serif;
 }
@@ -102,23 +108,25 @@ label {
     color: #a7a7a7;
     width: 310px;
     font: 14px "Open Sans Semibold", serif;
-    line-height: 1.8em; 
+    line-height: 1.8em;
+    top: 38px;
 }
 .middle_left_column {
     position: absolute;
-    left: -110px;
+    left: -127px;
 }
 .middle_center_column {
     position: absolute;
-    left: 245px;
+    left: 233px;
 }
 .middle_right_column {
     position: absolute;
-    left: 600px;
+    left: 590px;
+    
 }
 .middle_big_blue_letter {
     position: relative;
-    top: 20px;
+    top: 13px;
     color: #3070A8;
     width: 310px;
     font: 30px "Open Sans Semibold", serif;
