@@ -1,16 +1,14 @@
 body {
-    height: 100%;
     width: 1400px;
     margin: 0 auto;
     background-color: #c0c0c0;
+    text-align: center;
 }
 .main_table{
     width: 1400px;
-    height: 1500px;
     background-color: white;
-    text-align: center;
 }
-img[src="Banner1.png"] {
+img[src="img/Banner1.png"] {
     position: relative; 
     top: 10px;
 }
@@ -38,12 +36,10 @@ img[src="Banner1.png"] {
     font: bold 48px "Futura Md BT", serif;
     position: relative;
     top: -450px;
-    text-align: center;
 }
 .lorem {
     color: white;
     font: italic 20px Calibri, serif;
-    text-align: center;
     position: relative;
     top: -420px;
     line-height: 30px;
@@ -72,22 +68,24 @@ a:visited {
     color: #989898; 
     text-decoration: none;
 }
-
-input[type="button"] {
-    font: 16px "Open Sans Semibold", serif;
-    color: white;
-    border: 1px solid white;
-    position: relative;
-    top: -355px;
-}
-input .batton_name {
+.batton_name {
     display: none;
 }
 label {
-    
+    font: 16px "Open Sans Semibold", serif;
+    color: white;
+    border: 1px solid #9AABB7;
+    position: relative;
+    top: -375px;
+    left: -10px;
+    padding: 15px 60px 15px 60px;
 }
-
-
+.middle {
+   position: absolute;
+    margin: -200px 300px ;
+    color: #41525c;
+    font: bold 30px "Trebuchet MS", serif;
+}
 
 
 
