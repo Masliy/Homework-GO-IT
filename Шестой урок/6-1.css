@@ -1,4 +1,4 @@
-div {
+.template {
 	background-color: #FF7F24;
 	color: white;
 	font: bold 22px Trebuchet MS;
@@ -85,25 +85,26 @@ input{
 	border-bottom: 3px solid #CD661D;	
 }
 #best_value_header {
-	top: 33px;
+    position: relative;
+	top: 10px;
 	color: white;
 	font: bold 22px Trebuchet MS;
 	text-align: center;	
 }
-span {
+.number {
 	position: absolute;
 	top: 65px;
 	left:95px;
 	font: bold 60px Trebuchet MS;
 	text-align: center;	
 }
-sup {
+.sup {
 	position: absolute;
 	top: 60px;
 	left: 80px;
 	font: bold 20px Trebuchet MS;
 }
-sub {
+.sub {
 	font: bold 18px Trebuchet MS;
 	position: absolute;
 	top: 113px;
@@ -112,7 +113,7 @@ sub {
 .list_best_value {
 	top: 230px;
 }
-ul {
+ body ul {
 	color: grey;
 	font:16px Trebuchet MS;
 	position: absolute;
@@ -124,22 +125,20 @@ ul {
 	box-sizing: border-box;
 	padding: 5px 0 5px 15px;
 }
-li::before {
+body li::before {
 	 content: url(1.png);
 	 width: 20px;
 	 height: 20px;
 	 padding-left: 30px;
 	 padding-right: 15px;
 }
-li {
+body li {
 	padding-top: 10px;
 	height: 23px;
 	background-color: #F0F8FF;
 	border: 1px solid white;
-	
-	
 }
-li:nth-child(2n) {
+body li:nth-child(2n) {
 	background-color: #F5F5F5;
 	padding-top: 10px;
 	}
