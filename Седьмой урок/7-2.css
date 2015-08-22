@@ -22,10 +22,9 @@ img[src="img/Banner1.png"] {
     position: relative; 
     top: 10px; 
 }
-img[src="img/Banner2.png"] {
+-img[src="img/Banner2.png"] {
     position: absolute; 
-    top: 1252px;
-    left: 252px;
+    
 }
 .company_name{
     position: relative;
@@ -48,23 +47,65 @@ img[src="img/Banner2.png"] {
     top: 3px;
     left: -25px;
 }
+.fourth_block{
+    position: absolute;
+    top: 1247px;
+    left: 252px;
+    width: 1400px;
+    height: 576px;
+    box-sizing: border-box;
+    text-transform: none;
+    line-height: 1.9em;
+}
 .top_orange {
     color: #EE8129;
     font: 26px sans-serif;
     text-transform: uppercase;
-    position: absolute;
+    position: relative;
+    display: block;
     width: 740px;
-    top: 1325px;
-    left: 440px;
-    line-height: 2em;
+    top: -506px;
+    left: 190px;
+    line-height: 1.9em;
 }
 .fourth_block p {
     color: white;
     font: italic 19px "Open Sans";
     text-transform: none;
     position: relative;
-    left: 3px;
-    top: -18px;
+    left: 1px;
+    top: -14px;
+}
+.fourth_block ul {
+    color: #9d9d9d;
+    font: 14px "Open Sans";
+    position: relative;
+    display: block;
+    width: 600px;
+    top: -504px;
+    left: 190px;
+    list-style: none;
+}
+.fourth_block li:before {
+    position: relative;
+    left: -22px;
+    top: -2px;
+    content:  url(img/Ellipse_grey.png);
+    margin-right: -8px;
+}
+.fourth_block li {
+    line-height: 2.1em;
+    padding-bottom: 15px;
+}
+.second_li{
+    color: #3070A8;
+}
+.second_li li:before {
+    position: relative;
+    left: -22px;
+    top: -2px;
+    content:  url(img/Ellipse_blue.png);
+    margin-right: -8px;
 }
 .we_are {
     color: white;
