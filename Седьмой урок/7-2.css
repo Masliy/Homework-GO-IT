@@ -22,6 +22,11 @@ img[src="img/Banner1.png"] {
     position: relative; 
     top: 10px; 
 }
+img[src="img/Banner2.png"] {
+    position: absolute; 
+    top: 1252px;
+    left: 252px;
+}
 .company_name{
     position: relative;
     top: 27px;
@@ -42,6 +47,24 @@ img[src="img/Banner1.png"] {
     position: relative;
     top: 3px;
     left: -25px;
+}
+.top_orange {
+    color: #EE8129;
+    font: 26px sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    width: 740px;
+    top: 1325px;
+    left: 440px;
+    line-height: 2em;
+}
+.fourth_block p {
+    color: white;
+    font: italic 19px "Open Sans";
+    text-transform: none;
+    position: relative;
+    left: 3px;
+    top: -18px;
 }
 .we_are {
     color: white;
@@ -71,16 +94,16 @@ img[src="img/Banner1.png"] {
     position: relative;
     top: -5px;
 }
-li a:hover {
+.list li a:hover {
     color: #3070A8;
     border-bottom: 5px solid #3070A8;
     padding-bottom: 28px;
 }
-a:link {
+.list a:link {
     color: #989898; 
     text-decoration: none;
 }
-a:visited {
+.list a:visited {
     color: #989898; 
     text-decoration: none;
 }
