@@ -22,10 +22,6 @@ img[src="img/Banner1.png"] {
     position: relative; 
     top: 10px; 
 }
--img[src="img/Banner2.png"] {
-    position: absolute; 
-    
-}
 .company_name{
     position: relative;
     top: 27px;
@@ -50,12 +46,12 @@ img[src="img/Banner1.png"] {
 .fourth_block{
     position: absolute;
     top: 1247px;
-    left: 252px;
     width: 1400px;
     height: 576px;
     box-sizing: border-box;
     text-transform: none;
     line-height: 1.9em;
+    text-align: left;
 }
 .top_orange {
     color: #EE8129;
@@ -196,6 +192,7 @@ label {
     font: 30px "Open Sans Semibold", serif;
 }
 
+/*это кусок css для блока с ценами*/
 
 
 
