@@ -193,17 +193,106 @@ label {
 }
 
 /*это кусок css для блока с ценами*/
+.fifth_block {
+    position: relative;
+    top: 929px;
+}
+.fifth_block > h2 {
+    color: #41525c;
+    font: bold 30px "Trebuchet MS", serif;
+    position: relative;
+    top: 5px;
+}
+.white_color {
+    color: white;
+    display: block;
+    text-align: center;
+    font: bold 24px "Futura Md BT", serif;
+    background-color: #2bc2d5;
+    padding: 20px 0 16px 0;
+    border-top-left-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+.standart_block {
+	font: bold 22px "Trebuchet MS";
+	width: 289px;
+	height: 440px;
+	position: relative;
+	top: 50px;
+	text-align: center;
+	margin-left: 275px;
+    border: 1px solid inherit;
+    border-bottom-left-radius: 5px;
+    border-left: 1px solid #E8EAEC;
+    border-bottom: 1px solid #E8EAEC;
+    border-top-left-radius: 5px;
+}
+.standart_inside {
+    margin-bottom: 35px; 
+    margin-top: 15px;
+}
+.sup {
+    position: relative;
+	top: -20px;
+	left: 17px;
+	font: bold 22px "Futura Md BT";
+}
+.number {
+	position: relative;
+	top: 10px;
+	left:8px;
+	font: bold 72px "Futura Md BT";
+}
+.sub {
+	font: bold 18px "Trebuchet MS";
+	position: relative;
+	top: 15px;
+}
+.standart_block ul {
+    margin-top: -7px;
+    color: grey;
+    font:15px Calibri;
+    list-style: none;
+	text-align: left;
+    width: 250px;
+	box-sizing: border-box;
+    margin-left: 20px;
+    padding-left: 0px;
+}
+.standart_block li {
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.fifth_block li::before {
+	 content: url(img/arrow.png);
+	 width: 20px;
+	 height: 20px;
+	 padding-left: 30px;
+	 padding-right: 15px;
+}
+.fifth_block li {
+	background-color: #F0F8FF;
+	border: 1px solid white;
+}
+.fifth_block li:nth-child(2n) {
+	background-color: #F5F5F5;
+	}
 
-
-
-
-
-
-
-
-
-
-
+.blue_button {
+	font: 14px "Open Sans";
+	color: white;
+	position: absolute;
+    top: 377px;
+    left: 20px;
+	width: 250px;
+	border-radius: 5px;
+    text-decoration: none;
+    background-color: #2F70A8;
+	border-bottom: 3px solid #13426B;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 
 
