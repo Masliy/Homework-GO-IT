@@ -92,6 +92,7 @@ img[src="img/Banner1.png"] {
 .fourth_block li {
     line-height: 2.1em;
     padding-bottom: 15px;
+    overflow: hidden;
 }
 .second_li{
     color: #3070A8;
@@ -170,6 +171,7 @@ label {
     font: 14px "Open Sans Semibold", serif;
     line-height: 1.8em;
     top: 38px;
+    overflow: hidden;
 }
 .middle_left_column {
     position: absolute;
@@ -194,8 +196,9 @@ label {
 
 /*это кусок css для блока с ценами*/
 .fifth_block {
-    position: relative;
-    top: 929px;
+    position: absolute;
+    top: 1865px;
+    width: 1400px;
 }
 .fifth_block > h2 {
     color: #41525c;
@@ -203,54 +206,106 @@ label {
     position: relative;
     top: 5px;
 }
-.white_color {
+
+.header_template {
     color: white;
     display: block;
     text-align: center;
     font: bold 24px "Futura Md BT", serif;
-    background-color: #2bc2d5;
     padding: 20px 0 16px 0;
-    border-top-left-radius: 5px;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px; 
 }
-.standart_block {
+.blue_color {
+    background-color: #2bc2d5;
+    border-top-left-radius: 5px;
+}
+.orange_color {
+    background-color: #ee8129;
+    padding-bottom: 26px;
+}
+.green_color {
+    background-color: #00b89a;
+    border-top-right-radius: 5px;
+}
+.template_block {
 	font: bold 22px "Trebuchet MS";
 	width: 289px;
 	height: 440px;
-	position: relative;
-	top: 50px;
 	text-align: center;
+}
+.standart_block {
+	position: absolute;
+	top: 135px;
 	margin-left: 275px;
-    border: 1px solid inherit;
     border-bottom-left-radius: 5px;
     border-left: 1px solid #E8EAEC;
     border-bottom: 1px solid #E8EAEC;
     border-top-left-radius: 5px;
 }
-.standart_inside {
+.best_value_block {
+	position: absolute;
+	top: 120px;
+    height: 460px;
+	text-align: center;
+	margin-left: 565px;
+    width: 285px;
+    border: 5px solid #ee8129;
+    border-radius: 5px;
+    box-sizing: padding-box;
+}
+.ultimate_block {
+	position: absolute;
+	top: 135px;
+	margin-left: 860px;
+    border-bottom-right-radius: 5px;
+    border-right: 1px solid #E8EAEC;
+    border-bottom: 1px solid #E8EAEC;
+    border-top-right-radius: 5px;
+}
+.block_inside {
     margin-bottom: 35px; 
     margin-top: 15px;
 }
 .sup {
-    position: relative;
-	top: -20px;
-	left: 17px;
+    position: absolute;
+	top: 126px;
+	left: 74px;
+	font: bold 22px "Futura Md BT";
+}
+.sup_orange {
+    position: absolute;
+	top: 135px;
+	left: 65px;
 	font: bold 22px "Futura Md BT";
 }
 .number {
-	position: relative;
-	top: 10px;
-	left:8px;
+	position: absolute;
+	top: 117px;
+	left:85px;
+	font: bold 72px "Futura Md BT";
+}
+.number_orange {
+	position: absolute;
+	top: 127px;
+	left:77px;
 	font: bold 72px "Futura Md BT";
 }
 .sub {
 	font: bold 18px "Trebuchet MS";
-	position: relative;
-	top: 15px;
+	position: absolute;
+	top: 178px;
+    left: 165px;
 }
-.standart_block ul {
-    margin-top: -7px;
+.sub_orange {
+	font: bold 18px "Trebuchet MS";
+	position: absolute;
+	top: 187px;
+    left: 160px;
+}
+.template_block ul {
+    position: absolute;
+    top: 200px;
+    margin-top: 20px;
     color: grey;
     font:15px Calibri;
     list-style: none;
@@ -260,7 +315,14 @@ label {
     margin-left: 20px;
     padding-left: 0px;
 }
-.standart_block li {
+.orange ul {
+    position: absolute;
+    top: 213px;
+    margin-top: 17px;
+    margin-left: 17px;
+    padding-left: 0px;
+}
+.template_block li {
     padding-bottom: 8px;
     padding-top: 8px;
 }
@@ -279,7 +341,7 @@ label {
 	background-color: #F5F5F5;
 	}
 
-.blue_button {
+.button {
 	font: 14px "Open Sans";
 	color: white;
 	position: absolute;
@@ -293,7 +355,14 @@ label {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
+.orange_button {
+    top: 387px;
+    left: 18px;
+    background-color: #ee8129;
+	border-bottom: 3px solid #b3560b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 
 
