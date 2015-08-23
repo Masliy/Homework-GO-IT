@@ -1,11 +1,11 @@
--.try {
-    position: absolute;
-    left: 190px;
-    border: 1px solid red;
-    width: 1020px;
-    height: 3310px;
-    z-index: 1;
+
+/*
+.list li a:hover {
+    color: #3070A8;
+    border-bottom: 5px solid #3070A8;
+    padding-bottom: 28px;
 }
+*/
 html {
     background-color: #c0c0c0;
 }
@@ -43,6 +43,111 @@ img[src="img/Banner1.png"] {
     position: relative;
     top: 3px;
     left: -25px;
+}
+
+.second_li{
+    color: #3070A8;
+}
+.second_li li:before {
+    position: relative;
+    left: -22px;
+    top: -2px;
+    content:  url(img/Ellipse_blue.png);
+    margin-right: -8px;
+}
+.we_are {
+    color: white;
+    font: bold 48px "Futura Md BT", serif;
+    position: relative;
+    top: -445px;
+}
+.lorem {
+    color: white;
+    font: italic 20px Calibri, serif;
+    position: relative;
+    top: -430px;
+    left: -9px;
+    line-height: 30px;
+}
+.list li {
+    display: inline-block;
+    position: relative;
+    padding-left: 40px;
+    right: -14px;
+    top: -11px;
+    font: 14px "Open Sans Semibold";
+}
+.list{
+    margin-right: 194px;
+    float: right;
+    position: relative;
+}
+.main_table .list ul .other {
+    color: #3e7aae;
+}
+.line {
+    width: 75px;
+    height: 5px;
+    position: absolute;
+    top: 56px;
+    left: 77px;
+    background-color: #3e7aae;
+}
+.list a:link {
+    color: #989898; 
+    text-decoration: none;
+}
+.list a:visited {
+    color: #989898; 
+    text-decoration: none;
+}
+.batton_name {
+    display: none;
+}
+label {
+    font: 16px "Open Sans Semibold", serif;
+    color: white;
+    border: 1px solid #9AABB7;
+    position: relative;
+    top: -374px;
+    left: -10px;
+    padding: 17px 60px 17px 60px;
+}
+.middle {
+   position: absolute;
+    margin: -187px 312px ;
+    color: #41525c;
+    font: bold 30px "Trebuchet MS", serif;
+}
+
+.middle_column {
+    margin-top: 70px;
+    color: #a7a7a7;
+    width: 310px;
+    font: 14px "Open Sans Semibold", serif;
+    line-height: 1.8em;
+    top: 38px;
+    overflow: hidden;
+}
+.middle_left_column {
+    position: absolute;
+    left: -127px;
+}
+.middle_center_column {
+    position: absolute;
+    left: 233px;
+}
+.middle_right_column {
+    position: absolute;
+    left: 590px;
+    
+}
+.middle_big_blue_letter {
+    position: relative;
+    top: 13px;
+    color: #3070A8;
+    width: 310px;
+    font: 30px "Open Sans Semibold", serif;
 }
 .fourth_block{
     position: absolute;
@@ -94,106 +199,6 @@ img[src="img/Banner1.png"] {
     line-height: 2.1em;
     padding-bottom: 15px;
 }
-.second_li{
-    color: #3070A8;
-}
-.second_li li:before {
-    position: relative;
-    left: -22px;
-    top: -2px;
-    content:  url(img/Ellipse_blue.png);
-    margin-right: -8px;
-}
-.we_are {
-    color: white;
-    font: bold 48px "Futura Md BT", serif;
-    position: relative;
-    top: -445px;
-}
-.lorem {
-    color: white;
-    font: italic 20px Calibri, serif;
-    position: relative;
-    top: -430px;
-    left: -9px;
-    line-height: 30px;
-}
-.list li {
-    display: inline-block;
-    position: relative;
-    padding-left: 40px;
-    right: -4px;
-    top: -6px;
-    font: 14px "Open Sans";
-}
-.list{
-    margin-right: 190px;
-    float: right;
-    position: relative;
-    top: -5px;
-}
-.list li a:hover {
-    color: #3070A8;
-    border-bottom: 5px solid #3070A8;
-    padding-bottom: 28px;
-}
-.list a:link {
-    color: #989898; 
-    text-decoration: none;
-}
-.list a:visited {
-    color: #989898; 
-    text-decoration: none;
-}
-.batton_name {
-    display: none;
-}
-label {
-    font: 16px "Open Sans Semibold", serif;
-    color: white;
-    border: 1px solid #9AABB7;
-    position: relative;
-    top: -374px;
-    left: -9px;
-    padding: 17px 58px 17px 71px;
-}
-.middle {
-   position: absolute;
-    margin: -187px 312px ;
-    color: #41525c;
-    font: bold 30px "Trebuchet MS", serif;
-}
-
-.middle_column {
-    margin-top: 70px;
-    color: #a7a7a7;
-    width: 310px;
-    font: 14px "Open Sans Semibold", serif;
-    line-height: 1.8em;
-    top: 38px;
-    overflow: hidden;
-}
-.middle_left_column {
-    position: absolute;
-    left: -127px;
-}
-.middle_center_column {
-    position: absolute;
-    left: 233px;
-}
-.middle_right_column {
-    position: absolute;
-    left: 590px;
-    
-}
-.middle_big_blue_letter {
-    position: relative;
-    top: 13px;
-    color: #3070A8;
-    width: 310px;
-    font: 30px "Open Sans Semibold", serif;
-}
-
 /*это кусок css для блока с ценами*/
 .fifth_block {
     position: absolute;
@@ -420,14 +425,14 @@ img[src*="man"] {
     width: 330px;
     left: 15px;
 	padding-bottom: 8px;
-    font: italic 13px "Open Sans";
+    font: italic 13px "Open Sans Semibold";
 }
 .customer {
     position: absolute;
     top: -2px;
     left: 270px;
 	color:#3070A8;
-    font: italic 13px "Open Sans";
+    font: italic 13px "Open Sans Semibold";
 }
 .recall {
     font: 13px "Open Sans";
@@ -459,18 +464,34 @@ img[src*="man"] {
     position: absolute;
     bottom: 102px;
     right: 0;
+    font: 14px "Open Sans Semibold"
 }
 .seventh_block ul {
     position: absolute;
-    top: 0;
-    left: -500px;
+    top:25px;
+    left: -485px;
+    text-align: left;
 }
-.seventh_block ul {
+.seventh_block li {
     list-style:  none;
+    line-height: 30px;
 }
-
-
-
+.phone {
+    position: absolute;
+    left: -446px;
+    top: 175px;
+}
+.email {
+    position: absolute;
+    left: -446px;
+    top: 210px;
+}
+.cercles {
+    position: absolute;
+    bottom: 35px;
+    left: -506px;
+    
+}
 
 /*здесь футер*/
 .footer {
@@ -492,7 +513,9 @@ img[src*="man"] {
 .footer_bold {
    font: bold 14px "Open Sans";  
 }
-
+.twitter {
+    margin: 0 17px;
+}
 
 
 
