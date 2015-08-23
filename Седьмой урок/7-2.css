@@ -18,6 +18,10 @@ html {
     height: 3310px;
     text-align: center;
 }
+.name1 {
+    color: #3070A8;
+    font: bold 36px "FuturaBT Book";
+}
 img[src="img/Banner1.png"] {
     position: relative; 
     top: 10px; 
@@ -28,10 +32,7 @@ img[src="img/Banner1.png"] {
     left: 175px;
     width: 300px;
 }
-.name {
-    color: #3070A8;
-    font: bold 36px "FuturaBT Book";
-}
+
 .company {
     color: #EE8129;
     font: 36px Tahoma;
@@ -398,6 +399,7 @@ img[src*="man"] {
 	height: 98px;
 	text-align: left;
 	padding-left: 20px;
+    overflow: hidden;
 }
 .gerl_speech {
     position: absolute;
@@ -409,7 +411,9 @@ img[src*="man"] {
 	left: 849px;
 	top: 140px;
 }
+
 .name {
+    color: #3070A8;
     border-bottom: 1px dotted black;
     position: absolute;
     display: block;
@@ -433,9 +437,23 @@ img[src*="man"] {
     top: 48px;
     left: 18px;
     text-align: justify;
-    
 }
-
+.triangle {
+	position: absolute;
+	top: 170px;
+	left: 271px;
+	border: 15px solid;
+	border-color: transparent #F7F7F7 transparent transparent;
+	z-index: 1;
+}
+.triangle1 {
+	top: 175px;
+	left: 287px;
+}
+.triangle2 {
+	top: 175px;
+	left: 819px;
+}
 
 
 
