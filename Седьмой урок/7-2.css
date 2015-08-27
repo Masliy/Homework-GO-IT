@@ -113,6 +113,9 @@ label {
     left: -10px;
     padding: 17px 60px 17px 60px;
 }
+label:hover {
+   color: red;
+}
 .middle {
    position: absolute;
     margin: -187px 312px ;
@@ -324,7 +327,7 @@ label {
     top: 218px;
     margin-top: 17px;
     margin-left: 17px;
-    padding-left: 0px;
+    padding-left: 0;
 }
 .template_block li {
     padding-bottom: 8px;
@@ -490,14 +493,31 @@ img[src*="man"] {
     position: absolute;
     bottom: 35px;
     left: -506px;
-    
+}
+.seventh_block li:before {
+    content: url(img/point.png);
+    position: absolute;
+    left: -18px;
+    top: 4px;
+}
+.phone:before {
+    content: url(img/icon_phone.png);
+    position: absolute;
+    left: -60px;
+    top: -2px;
+}
+.email:before {
+    content: url(img/letter.png);
+    position: absolute;
+    left: -62px;
+    top: 4px;
 }
 
 /*здесь футер*/
 .footer {
     position: absolute;
     color: white;
-    bottom: 0px;
+    bottom: 0;
     background-color: #3070a8;
     width: 100%;
     height: 105px;
