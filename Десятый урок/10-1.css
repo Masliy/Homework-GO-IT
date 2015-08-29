@@ -22,3 +22,11 @@
 .inside {
 	display: none;
 }
+
+#qw {
+	position: absolute;
+	top: 100px;
+	left: 300px;
+	width: 500px;
+	height: 500px;
+}
