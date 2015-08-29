@@ -1,24 +1,32 @@
 .general {
     background-color: #ffcd5d;
     width:28.4%;
+    min-width: 200px;
     height: 55px;
     position: absolute;
-    left: 600px;
+    left: 100px;
     top: 100px;
     -margin: 100px auto 20px auto;
+}
+.general:after {
+    content: "";
+    border: 35px solid;
+    right: 0;
+    position: absolute;
+    border-color: transparent transparent transparent blue;
 }
 .first {
     width: 83.5%;
     margin: 5px;
-    padding-bottom: 6px; 
+    padding: 3px;  
 }
 .second {
     position: absolute;
-    left: 85.2%;
+    right: 13px;
     border-radius: 3px;
-    font: 15px sans-serif;
+    font: 1em sans-serif;
     padding: 2px 10px;
-    top: 6px;
+    top: 5px;
     background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
 }
 .third {
