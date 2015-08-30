@@ -1,0 +1,543 @@
+
+/*
+.list li a:hover {
+    color: #3070A8;
+    border-bottom: 5px solid #3070A8;
+    padding-bottom: 28px;
+}
+*/
+html {
+    background-color: #c0c0c0;
+}
+.main_table{
+    position: relative;
+    margin: 0 auto;
+    top: -10px;
+    width: 1400px;
+    background-color: white;
+    height: 3300px;
+    text-align: center;
+}
+.name1 {
+    color: #3070A8;
+    font: bold 36px "FuturaBT Book";
+}
+img[src="img/Banner1.png"] {
+    position: relative; 
+    top: 10px; 
+}
+.company_name{
+    position: relative;
+    top: 27px;
+    left: 175px;
+    width: 300px;
+}
+
+.company {
+    color: #EE8129;
+    font: 36px Tahoma;
+}
+.first_row {
+    color: white;
+    font: 36px serif;
+    position: relative;
+    top: 3px;
+    left: -25px;
+}
+
+.second_li{
+    color: #3070A8;
+}
+.second_li li:before {
+    position: relative;
+    left: -22px;
+    top: -2px;
+    content:  url(img/Ellipse_blue.png);
+    margin-right: -8px;
+}
+.we_are {
+    color: white;
+    font: bold 48px "Futura Md BT", serif;
+    position: relative;
+    top: -445px;
+}
+.lorem {
+    color: white;
+    font: italic 20px Calibri, serif;
+    position: relative;
+    top: -430px;
+    left: -9px;
+    line-height: 30px;
+}
+.list li {
+    display: inline-block;
+    position: relative;
+    padding-left: 40px;
+    right: -14px;
+    top: -11px;
+    font: 14px "Open Sans Semibold";
+}
+.list{
+    margin-right: 194px;
+    float: right;
+    position: relative;
+}
+.main_table .list ul .other {
+    color: #3e7aae;
+}
+.line {
+    width: 75px;
+    height: 5px;
+    position: absolute;
+    top: 56px;
+    left: 77px;
+    background-color: #3e7aae;
+}
+.list a:link {
+    color: #989898; 
+    text-decoration: none;
+}
+.list a:visited {
+    color: #989898; 
+    text-decoration: none;
+}
+.batton_name {
+    display: none;
+}
+label {
+    font: 16px "Open Sans Semibold", serif;
+    color: white;
+    border: 1px solid #9AABB7;
+    position: relative;
+    top: -374px;
+    left: -10px;
+    padding: 17px 60px 17px 60px;
+}
+label:hover {
+   color: red;
+}
+.middle {
+   position: absolute;
+    margin: -187px 312px ;
+    color: #41525c;
+    font: bold 30px "Trebuchet MS", serif;
+}
+
+.middle_column {
+    margin-top: 70px;
+    color: #a7a7a7;
+    width: 310px;
+    font: 14px "Open Sans Semibold", serif;
+    line-height: 1.8em;
+    top: 38px;
+    overflow: hidden;
+}
+.middle_left_column {
+    position: absolute;
+    left: -127px;
+}
+.middle_center_column {
+    position: absolute;
+    left: 233px;
+}
+.middle_right_column {
+    position: absolute;
+    left: 590px;
+    
+}
+.middle_big_blue_letter {
+    position: relative;
+    top: 13px;
+    color: #3070A8;
+    width: 310px;
+    font: 30px "Open Sans Semibold", serif;
+}
+.fourth_block{
+    position: absolute;
+    top: 1247px;
+    width: 1400px;
+    height: 576px;
+    box-sizing: border-box;
+    text-transform: none;
+    line-height: 1.9em;
+    text-align: left;
+}
+.top_orange {
+    color: #EE8129;
+    font: 26px sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    display: block;
+    width: 740px;
+    top: -506px;
+    left: 190px;
+    line-height: 1.9em;
+}
+.fourth_block p {
+    color: white;
+    font: italic 19px "Open Sans";
+    text-transform: none;
+    position: relative;
+    left: 1px;
+    top: -14px;
+}
+.fourth_block ul {
+    color: #9d9d9d;
+    font: 14px "Open Sans";
+    position: relative;
+    display: block;
+    width: 600px;
+    top: -504px;
+    left: 190px;
+    list-style: none;
+}
+.fourth_block li:before {
+    position: relative;
+    left: -22px;
+    top: -2px;
+    content:  url(img/Ellipse_grey.png);
+    margin-right: -8px;
+}
+.fourth_block li {
+    line-height: 2.1em;
+    padding-bottom: 15px;
+}
+/*это кусок css для блока с ценами*/
+.fifth_block {
+    position: absolute;
+    top: 1865px;
+    width: 1400px;
+}
+.fifth_block > h2 {
+    color: #41525c;
+    font: bold 30px "Trebuchet MS", serif;
+    position: relative;
+    top: 5px;
+}
+
+.header_template {
+    color: white;
+    display: block;
+    text-align: center;
+    font: bold 24px "Futura Md BT", serif;
+    padding: 25px 0 16px 0; 
+}
+.blue_color {
+    background-color: #2bc2d5;
+    border-top-left-radius: 5px;
+}
+.orange_color {
+    background-color: #ee8129;
+    padding-bottom: 26px;
+}
+.green_color {
+    background-color: #00b89a;
+    border-top-right-radius: 5px;
+}
+.template_block {
+	font: bold 22px "Trebuchet MS";
+	width: 289px;
+	height: 440px;
+	text-align: center;
+}
+.standart_block {
+	position: absolute;
+	top: 135px;
+	margin-left: 275px;
+    border-bottom-left-radius: 5px;
+    border-left: 1px solid #E8EAEC;
+    border-bottom: 1px solid #E8EAEC;
+    border-top-left-radius: 5px;
+}
+.best_value_block {
+	position: absolute;
+	top: 120px;
+    height: 460px;
+	text-align: center;
+	margin-left: 565px;
+    width: 285px;
+    border: 5px solid #ee8129;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+.ultimate_block {
+	position: absolute;
+	top: 135px;
+	margin-left: 860px;
+    border-bottom-right-radius: 5px;
+    border-right: 1px solid #E8EAEC;
+    border-bottom: 1px solid #E8EAEC;
+    border-top-right-radius: 5px;
+}
+.block_inside {
+    margin-top: 15px;
+}
+.sup {
+    position: absolute;
+	top: 131px;
+	left: 69px;
+	font: bold 22px "Futura Md BT";
+}
+.sup_orange {
+    position: absolute;
+	top: 140px;
+	left: 65px;
+	font: bold 22px "Futura Md BT";
+}
+.number {
+	position: absolute;
+	top: 119px;
+	left:80px;
+	font: bold 72px "Futura Md BT";
+}
+.number_orange {
+	position: absolute;
+	top: 127px;
+	left:77px;
+	font: bold 72px "Futura Md BT";
+}
+.sub {
+	font: bold 18px "Trebuchet MS";
+	position: absolute;
+	top: 182px;
+    left: 165px;
+}
+.sub_orange {
+	font: bold 18px "Trebuchet MS";
+	position: absolute;
+	top: 187px;
+    left: 160px;
+}
+.template_block ul {
+    position: absolute;
+    top: 205px;
+    margin-top: 20px;
+    color: grey;
+    font:15px Calibri;
+    list-style: none;
+	text-align: left;
+    width: 250px;
+	box-sizing: border-box;
+    margin-left: 20px;
+    padding-left: 0;
+}
+.orange ul {
+    position: absolute;
+    top: 218px;
+    margin-top: 17px;
+    margin-left: 17px;
+    padding-left: 0;
+}
+.template_block li {
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.fifth_block li:before {
+	 content: url(img/arrow.png);
+	 width: 20px;
+	 height: 20px;
+	 padding-left: 30px;
+	 padding-right: 15px;
+}
+.fifth_block li {
+	background-color: #F0F8FF;
+	border: 1px solid white;
+}
+.fifth_block li:nth-child(2n) {
+	background-color: #F5F5F5;
+	}
+
+.button {
+	font: 14px "Open Sans";
+	color: white;
+	position: absolute;
+    top: 382px;
+    left: 20px;
+	width: 250px;
+	border-radius: 5px;
+    text-decoration: none;
+    background-color: #2F70A8;
+	border-bottom: 3px solid #13426B;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.orange_button {
+    top: 392px;
+    left: 18px;
+    background-color: #ee8129;
+	border-bottom: 3px solid #b3560b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*дальше идет css для отзывов*/
+.sixth_block {
+    position: absolute;
+    bottom: 447px;
+
+}
+#what {
+	color: #EE8129;
+    position: absolute;
+    top:50px;
+    left: 512px;
+    font: 40px "Futura Md";
+}
+#client_says {
+	color: #3170A8;
+    position: absolute;
+    top:50px;
+    left: 645px;
+    font: bold 40px "Futura Md BT";
+}
+img[src*="gerl"] {
+    position: absolute;
+    top: 139px;
+	left: 190px;
+}
+img[src*="man"] {
+    position: absolute;
+    top: 139px;
+	left: 724px;
+}
+.general_speech {
+	background-color: #F7F7F7;
+	width: 342px;
+	height: 98px;
+	text-align: left;
+	padding-left: 20px;
+    overflow: hidden;
+}
+.gerl_speech {
+    position: absolute;
+	left: 317px;
+	top: 138px;
+}
+.man_speech {
+    position: absolute;
+	left: 849px;
+	top: 138px;
+}
+
+.name {
+    color: #3070A8;
+    border-bottom: 1px dotted black;
+    position: absolute;
+    display: block;
+    width: 330px;
+    left: 15px;
+	padding-bottom: 8px;
+    font: italic 13px "Open Sans Semibold";
+}
+.customer {
+    position: absolute;
+    top: -2px;
+    left: 270px;
+	color:#3070A8;
+    font: italic 13px "Open Sans Semibold";
+}
+.recall {
+    font: 13px "Open Sans";
+	color: #737373;
+    position: absolute;
+    width: 320px;
+    top: 48px;
+    left: 18px;
+    text-align: justify;
+}
+.triangle {
+	position: absolute;
+	top: 170px;
+	left: 271px;
+	border: 15px solid;
+	border-color: transparent #F7F7F7 transparent transparent;
+	z-index: 1;
+}
+.triangle1 {
+	top: 175px;
+	left: 287px;
+}
+.triangle2 {
+	top: 175px;
+	left: 819px;
+}
+/*здесь седьмой блок, карта и контакты*/
+.seventh_block {
+    position: absolute;
+    bottom: 102px;
+    right: 0;
+    font: 14px "Open Sans Semibold"
+}
+.seventh_block ul {
+    position: absolute;
+    top:25px;
+    left: -485px;
+    text-align: left;
+}
+.seventh_block li {
+    list-style:  none;
+    line-height: 30px;
+}
+.phone {
+    position: absolute;
+    left: -446px;
+    top: 175px;
+}
+.email {
+    position: absolute;
+    left: -446px;
+    top: 210px;
+}
+.cercles {
+    position: absolute;
+    bottom: 35px;
+    left: -506px;
+}
+.seventh_block li:before {
+    content: url(img/point.png);
+    position: absolute;
+    left: -18px;
+    top: 4px;
+}
+.phone:before {
+    content: url(img/icon_phone.png);
+    position: absolute;
+    left: -60px;
+    top: -2px;
+}
+.email:before {
+    content: url(img/letter.png);
+    position: absolute;
+    left: -62px;
+    top: 4px;
+}
+
+/*здесь футер*/
+.footer {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    background-color: #3070a8;
+    width: 100%;
+    height: 105px;
+    font: 14px "Open Sans";
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.footer a {
+    color: black;
+    text-decoration: none;
+    font: bold 14px "Open Sans";
+}
+.footer_bold {
+   font: bold 14px "Open Sans";  
+}
+.twitter {
+    margin: 0 17px;
+}
+
+
+
+
+
+
