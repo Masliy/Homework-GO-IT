@@ -1,7 +1,7 @@
 .galery {
 	min-width: 370px;
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: 70px auto;
 }
 .galery img {
 	margin: 13px;
@@ -35,4 +35,15 @@
 .inside_new_window,
 .inside_zoom {
 	display: none;
+}
+header {
+	text-align: center;
+}
+.top_first_row {
+	font: 41px "Times New Roman", Tahoma;
+}
+header p {
+	font: 15px "Times New Roman", Tahoma;
+	color: #909090;
+	margin-bottom: 40px;
 }
