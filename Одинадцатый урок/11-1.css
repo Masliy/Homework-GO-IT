@@ -1,0 +1,110 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+.galery {
+	min-width: 370px;
+	max-width: 1200px;
+	margin: 70px auto;
+
+}
+.galery img {
+	margin: 13px;
+	margin-top: 12px;
+}
+.foto:hover .inside_new_window {
+	display: inline-block;
+	position: absolute;
+	right: 135px;
+	top: -165px;
+	z-index: 2;
+}
+.foto:hover .inside_zoom {
+	display: inline-block;
+	position: absolute;
+	right: 185px;
+	top: -165px;
+	z-index: 2;
+}
+
+.foto:hover:after {
+	content: url(img/BG.png);
+	position: absolute;
+	right: 17px;
+	top: -258px;
+	z-index: 1;
+}
+
+span[id^=image]:target {
+	width: 200%;
+	height: 600px;
+	z-index: 5000;
+}
+span[id^=image]:target .inside_zoom,
+span[id^=image]:target .inside_new_window,
+span[id^=image]:target .hiddden_foto,
+.inside_new_window,
+.inside_zoom {
+	display: none;
+}
+span[id^=image]:target .close {
+	display: block;
+	z-index: 5;
+}
+.foto .close a {
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	background: #22272c;
+}
+.foto .close {
+	position: absolute;
+	width: 20px; height: 20px;
+	right: 30px; top: -260px;
+	display: none;
+}
+
+
+.foto {
+	position: relative;
+}
+
+header {
+	text-align: center;
+}
+.top_first_row {
+	font: 41px "Times New Roman", Tahoma;
+}
+header p {
+	font: 15px "Times New Roman", Tahoma;
+	color: #909090;
+	margin-bottom: 40px;
+}
+
