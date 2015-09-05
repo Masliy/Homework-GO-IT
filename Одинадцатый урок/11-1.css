@@ -30,7 +30,7 @@ table {
 /* end reset browser styles */
 
 .galery {
-	min-width: 370px;
+	min-width: 500px;
 	max-width: 1200px;
 	margin: 70px auto;
 
@@ -62,19 +62,19 @@ table {
 	z-index: 1;
 }
 
-span[id^=image]:target {
-	width: 200%;
+.foto[id^=image]:target {
+	width: 1200px;
 	height: 600px;
 	z-index: 5000;
 }
-span[id^=image]:target .inside_zoom,
-span[id^=image]:target .inside_new_window,
-span[id^=image]:target .hiddden_foto,
+.foto[id^=image]:target .inside_zoom,
+.foto[id^=image]:target .inside_new_window,
+.foto[id^=image]:target .hiddden_foto,
 .inside_new_window,
 .inside_zoom {
 	display: none;
 }
-span[id^=image]:target .close {
+.foto[id^=image]:target .close {
 	display: block;
 	z-index: 5;
 }
@@ -82,7 +82,7 @@ span[id^=image]:target .close {
 	padding: 5px 10px;
 	color: #fff;
 	text-decoration: none;
-	background: #22272c;
+	background: #f85023;
 }
 .foto .close {
 	position: absolute;
@@ -94,6 +94,8 @@ span[id^=image]:target .close {
 
 .foto {
 	position: relative;
+	width: 0;
+	height: 0;
 }
 
 header {
