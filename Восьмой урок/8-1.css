@@ -17,6 +17,10 @@
     border-color: transparent transparent transparent #ffcd5d;
     transform: scale(0.5, 1);
 }
+
+input:focus {
+        box-shadow:  0 0 10px rgba(0,0,255,.9);
+}
 .first {
     width: 90%;
     margin: 5px;
