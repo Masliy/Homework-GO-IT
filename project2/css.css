@@ -1,0 +1,132 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+
+.qwer {
+	border: 1px solid red;
+	position: absolute;
+	left: 685px;
+	width: 1000px;
+	height: 100%;
+	z-index: 2;
+}
+
+
+
+html {
+	font-size: 62,5%;
+	background-color: #66CDAA;
+}
+body {
+	margin: 0 auto;
+	max-width: 1920px;
+	min-width: 1000px;
+}
+.first_block {
+	position: relative;
+}
+header {
+	background-color: #3498db;
+	padding: 25px 0 20px 0;
+	color: #fff;
+}
+header h3 {
+	font: 1.6em Helvetica, Arial;
+	padding-left: 24.7%;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-top: -30px;
+}
+header h3:before {
+	content: url(images/logo.png);
+	position: relative;
+	left: -15px;
+	top: 17px;
+
+}
+header ul:before {
+	content: "Connect:";
+	font: 13px Helvetica, Arial;
+	position: relative;
+	top: -5px;
+}
+header li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 2px;
+}
+header ul {
+	position: absolute;
+	right: 24.4%;
+	top: 28px;
+}
+.first_foto {
+	color: #fff;
+	background-image: url(images/main_foto.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}	
+
+
+.first_foto span {
+	font: bold 50px Helvetica, Arial;
+	text-transform: uppercase;
+	display: block;
+	padding-top: 68px;
+	padding-left: 24%;
+}
+.first_foto .about {
+	font:  30px Helvetica, Arial;
+	text-transform: none;
+	margin-top: -80px;
+	padding-bottom: 110px;
+}
+.notice {
+	
+	background-color: #f2f2f2;
+	font: 13px Helvetica, Arial;
+	padding-left: 24.2%;
+	position: relative;
+	padding-top: 30px;
+}
+.notice span{
+	width: 100%;
+	font: bold 15px Helvetica, Arial;
+	text-transform: uppercase;
+}
+.notice p:first-of-type{
+	padding-top: 17px;
+	padding-bottom: 27px;
+}
+.notice p:last-of-type{
+	padding-bottom: 70px;
+}
+/*Дальше идет код для блока с тремя фотографиями*/
