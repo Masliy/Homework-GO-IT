@@ -39,7 +39,7 @@ html {
 body {
 	margin: 0 auto;
 	max-width: 1920px;
-	min-width: 1250px;
+	min-width: 1320px;
 }
 .first_block {
 	position: relative;
@@ -219,10 +219,10 @@ figcaption {
 	text-align: center;
 	display: block;
 	position: relative;
-	top: 23px;
-	padding-bottom: 50px;
+	top: 22px;
+	padding-bottom: 53px;
 }
-.second_column {
-	padding-left: 3%;
-
+.second_column,
+.third_column  {
+	padding-left: 56px;
 }
