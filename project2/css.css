@@ -169,6 +169,10 @@ header ul {
 	font: 25px Helvetica, Arial;
 	border: 2px outset #fff;
 }
+.form input:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,.8);
+	cursor: pointer;
+}
 .form .adress{
 	padding-bottom: 48px;
 }
@@ -233,6 +237,7 @@ figcaption {
 	background: url(images/start.png) no-repeat;
 	background-position: 24.2% 82px;
 	background-color: #fff;
+	position: relative;
 }
 .third_block p:first-of-type {
 	color: #3498db;
@@ -263,7 +268,34 @@ figcaption {
 	position: absolute;
 	top: 100px;
 	right: 22px;
-
-	display: inline-block;
-	
+}
+.arrows {
+	float: right;
+	margin-right: 467px;
+	margin-top: -34px;
+}
+.man {
+	float: right;
+	margin-top: 18px;
+	margin-right: -55px;
+}
+.dark {
+	background-color: #f2f2f2;
+	height: 200px;
+}
+.third_block .dark p{
+	padding: 15px 0 15px 30px;
+	color: #fff;
+	background-color: #e74c3c;
+	width: 540px;
+	margin-left: 24%;
+	box-sizing: border-box;
+	position: absolute;
+	top: 320px;
+}
+.third_block .dark p:after{
+	content: url(images/wright.png);
+	position: absolute;
+	top: 16px;
+	right: 21px;
 }
