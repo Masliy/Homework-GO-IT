@@ -72,10 +72,11 @@ img[src="img/Banner1.png"] {
 .list li {
     display: inline-block;
     position: relative;
-    padding-left: 40px;
+    
     right: -14px;
     top: -11px;
     font: 14px "Open Sans Semibold";
+    padding-left: 40px;
 }
 .list{
     margin-right: 194px;
@@ -93,6 +94,7 @@ img[src="img/Banner1.png"] {
     left: 77px;
     background-color: #3e7aae;
 }
+
 .list a:link {
     color: #989898; 
     text-decoration: none;
@@ -406,7 +408,7 @@ img[src*="man"] {
 	height: 98px;
 	text-align: left;
 	padding-left: 20px;
-    overflow: hidden;
+    overflow: auto;
 }
 .gerl_speech {
     position: absolute;
