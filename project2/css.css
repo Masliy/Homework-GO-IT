@@ -31,7 +31,7 @@ table {
 
 
 
-body {
+html {
 	margin: 0 auto;
 	max-width: 1920px;
 	min-width: 1500px;
@@ -48,9 +48,7 @@ header h3 {
 	font: 1.6rem Helvetica, Arial;
 	padding-left: 24.7%;
 	display: inline-block;
-	text-transform: uppercase;
 	margin-top: -30px;
-	min-width: 1250px;
 }
 header h3:before {
 	content: url(images/logo.png);
@@ -86,7 +84,6 @@ header ul {
 
 .first_foto span {
 	font: bold 50px Helvetica, Arial;
-	text-transform: uppercase;
 	display: block;
 	padding-top: 68px;
 	padding-left: 24%;
@@ -110,7 +107,6 @@ header ul {
 .notice span{
 	width: 100%;
 	font: bold 15px Helvetica, Arial;
-	text-transform: uppercase;
 }
 .notice p:first-of-type{
 	padding-top: 17px;
@@ -122,7 +118,6 @@ header ul {
 
 .form span {
 	font: 25px Helvetica, Arial;
-	text-transform: uppercase;
 	position: absolute;
 	top: -45px;
 }
@@ -175,13 +170,6 @@ header ul {
 	position: relative;
 	top:2px;
 	left: 180px;
-}
-
--@media (max-width: 1000px) {
-	html {
-	background-color: red;
-}
-
 }
 
 /*Дальше идет код для блока с тремя фотографиями*/
@@ -291,17 +279,18 @@ figcaption {
 	-height: 200px;
 	padding-top: 65px;
 	padding-bottom: 120px; 
+
 }
 .dark p{
 	padding: 15px 0 15px 30px;
 	color: #fff;
 	background-color: #e74c3c;
 	width: 540px;
-	margin-left: 24%;
+	margin-left: 462px;
 	box-sizing: border-box;
 	position: absolute;
-	-margin-top: 40px;
 	font: 25px Helvetica, Arial;
+
 	
 }
 .dark a {
@@ -312,4 +301,338 @@ figcaption {
 	position: absolute;
 	top: 16px;
 	right: 21px;
+}
+
+footer{
+	background-color: #3598DB;
+	height: 200px;
+	color: #fff;
+	font: 13px Helvetica, Arial;
+}
+footer .logo{
+	width: 177px;
+	font: 1.6rem Helvetica, Arial;
+	padding-left: 28.1%;
+	padding-top: 58px;
+	line-height: 110%;
+	text-transform: uppercase;
+	
+	position: relative;
+}
+footer .logo:before {
+	content: url(images/bottomlogo.png);
+	position: absolute;
+	right: 190px;
+	top: 52px;
+}
+.right {
+	position: relative;
+	border-left: 1px solid #2980b9;
+	height: 70px;
+	width: 700px;
+	left: 718px;
+	top: -60px;
+}
+.right ul:before {
+	content: "Connect:";
+	
+	position: relative;
+	top: -5px;
+	text-transform: none;
+}
+.right li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 3px;
+}
+.right ul {
+	position: absolute;
+	left: 0px;
+	top: 10px;
+}
+.right span{
+	position: absolute;
+	top: 37px;
+	left: 20px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+body {
+	margin: 0 auto;
+	max-width: 800px;
+	background-color: red;
+}
+header {
+	padding: 23px 0 22px 0;
+}
+header h3 {
+	padding-left: 35px;
+}
+header ul {
+	right: 20px;
+	top: 25px;
+}
+.first_foto {
+	max-height: 350px; 
+	background-image: url(images/tablet_main_foto.png);
+}	
+.first_foto span {
+	font-size: 45px;
+	padding: 82px 0 0 23px;
+}
+.first_foto .about {
+	font-size: 25px;
+	margin-top: -95px;
+	padding-bottom: 120px;
+	line-height: 150%;
+}
+.notice {
+	font-size: 15px;
+	padding: 25px 380px 7px 25px;
+	font-size: 13px;
+	line-height: 150%;
+}
+.notice p:first-of-type{
+	padding: 17px 0 20px 0; 
+	line-height: 150%;
+}
+.form {
+	width: 320px;
+	margin: -122px 20px 0 0;
+	padding-right: 20px;
+}
+.form span {
+	font-size: 20px;
+	top: -51px;
+	left: 78px;
+}
+.form li{
+	width: 285px;
+}
+.form .adress{
+	padding-bottom: 46px;
+}
+.choice {
+	position: relative;
+	top:1px;
+	left: 166px;
+}
+.form input{
+	width: 200px;
+	padding:11px 0 9px 0;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+/*Дальше идет код для блока с тремя фотографиями*/
+.second_block {
+	width: 100%;
+	background-color: #fff;
+	border-bottom: 1px solid #f2f2f2;
+}
+.second_block > p{
+	color: #3498db;
+	text-transform: uppercase;
+	font: 25px Helvetica, Arial;
+	padding-left: 24.2%;
+	padding-top: 30px;
+	padding-bottom: 28px;
+}
+.first_column {
+	width: 290px;
+	padding-left: 24%;
+	display: inline-block;
+}
+figcaption span {
+	text-transform: uppercase;
+	font: bold 15px Helvetica, Arial;
+	text-align: center;
+	padding: 20px 0 16px 0;
+	display: block;
+}
+figcaption {
+	font: 13px Helvetica, Arial;
+	text-align: center;
+	line-height: 150%;
+}
+.view {
+	display: inline-block;
+	position: relative;
+	left: 118px;
+	top: 22px;
+	margin-bottom: 53px;
+}
+.second_column,
+.third_column  {
+	padding-left: 56px;
+}
+/*тут отзывы*/
+.third_block {
+	width: 100%;
+	
+	background-color: #fff;
+	position: relative;
+	max-height: 260px;
+}
+.third_block p:first-of-type {
+	color: #3498db;
+	text-transform: uppercase;
+	font: 25px Helvetica, Arial;
+	padding-left: 24.2%;
+	padding-top: 30px;
+}
+.qwe {
+	max-width: 730px;
+	width: 100%;
+	font: 13px Helvetica, Arial;
+	margin-left: 24.1%;
+	
+}
+.cite{
+	padding-top: 55px;
+	display: block;
+	position: relative;
+	line-height: 150%;
+	padding-bottom: 100px;
+	word-spacing: -0.05em;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.cite:before {
+	content: url(images/start.png);
+	position: absolute;
+	top: 20px;
+}
+.cite span{
+	position: absolute;
+	right: 10px;
+	bottom: 68px;
+	font: bold 14px Helvetica, Arial;
+}
+.cite span:after{
+	content: url(images/stop.png);
+	position: absolute;
+	top: 30px;
+	right: 0px;
+}
+.arrows {
+	float: right;
+	margin-right: 467px;
+	margin-top: 28px;
+}
+.man {
+	float: right;
+	margin-top: 80px;
+	margin-right: -55px;
+}
+.dark {
+	background-color: #f2f2f2;
+	width: 100%;
+	-height: 200px;
+	padding-top: 65px;
+	padding-bottom: 120px; 
+
+}
+.dark p{
+	padding: 15px 0 15px 30px;
+	color: #fff;
+	background-color: #e74c3c;
+	width: 540px;
+	margin-left: 462px;
+	box-sizing: border-box;
+	position: absolute;
+	font: 25px Helvetica, Arial;
+
+	
+}
+.dark a {
+	text-decoration: none;
+}
+.dark p:after{
+	content: url(images/wright.png);
+	position: absolute;
+	top: 16px;
+	right: 21px;
+}
+
+footer{
+	background-color: #3598DB;
+	height: 200px;
+	color: #fff;
+	font: 13px Helvetica, Arial;
+}
+footer .logo{
+	width: 177px;
+	font: 1.6rem Helvetica, Arial;
+	padding-left: 28.1%;
+	padding-top: 58px;
+	line-height: 110%;
+	text-transform: uppercase;
+	
+	position: relative;
+}
+footer .logo:before {
+	content: url(images/bottomlogo.png);
+	position: absolute;
+	right: 190px;
+	top: 52px;
+}
+.right {
+	position: relative;
+	border-left: 1px solid #2980b9;
+	height: 70px;
+	width: 700px;
+	left: 718px;
+	top: -60px;
+}
+.right ul:before {
+	content: "Connect:";
+	
+	position: relative;
+	top: -5px;
+	text-transform: none;
+}
+.right li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 3px;
+}
+.right ul {
+	position: absolute;
+	left: 0px;
+	top: 10px;
+}
+.right span{
+	position: absolute;
+	top: 37px;
+	left: 20px;
+}
+}
+
+
+-@media (max-width: 800px, min-width: 320px,) {
+
+	html {
+		margin: 0 auto;
+		max-width: 800px;
+		
+}
+	body {
+		margin: 0 auto;
+		max-width: 800px;
+}
+
 }
