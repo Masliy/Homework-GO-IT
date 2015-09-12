@@ -35,6 +35,12 @@ html {
 	margin: 0 auto;
 	max-width: 1920px;
 	min-width: 1500px;
+	background-color: red;
+}
+body {
+	margin: 0 auto;
+	max-width: 1920px;
+	min-width: 1500px;
 }
 .first_block {
 	position: relative;
