@@ -31,15 +31,10 @@ table {
 
 
 
-
-html {
-	font-size: 62,5%;
-	background-color: #66CDAA;
-}
 body {
 	margin: 0 auto;
 	max-width: 1920px;
-	min-width: 1320px;
+	min-width: 1500px;
 }
 .first_block {
 	position: relative;
@@ -182,7 +177,7 @@ header ul {
 	left: 180px;
 }
 
-@media (max-width: 1000px) {
+-@media (max-width: 1000px) {
 	html {
 	background-color: red;
 }
@@ -234,10 +229,10 @@ figcaption {
 /*тут отзывы*/
 .third_block {
 	width: 100%;
-	background: url(images/start.png) no-repeat;
-	background-position: 24.2% 82px;
+	
 	background-color: #fff;
 	position: relative;
+	max-height: 260px;
 }
 .third_block p:first-of-type {
 	color: #3498db;
@@ -246,44 +241,58 @@ figcaption {
 	padding-left: 24.2%;
 	padding-top: 30px;
 }
-.cite{
-	width: 750px;
+.qwe {
+	max-width: 730px;
+	width: 100%;
 	font: 13px Helvetica, Arial;
-	padding-left: 24.1%;
+	margin-left: 24.1%;
+	
+}
+.cite{
 	padding-top: 55px;
 	display: block;
 	position: relative;
 	line-height: 150%;
 	padding-bottom: 100px;
 	word-spacing: -0.05em;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.cite:before {
+	content: url(images/start.png);
+	position: absolute;
+	top: 20px;
 }
 .cite span{
 	position: absolute;
-	display: block;
-	right: 30px;
-	top: 108px;
+	right: 10px;
+	bottom: 68px;
 	font: bold 14px Helvetica, Arial;
 }
-.cite p:last-of-type{
+.cite span:after{
+	content: url(images/stop.png);
 	position: absolute;
-	top: 100px;
-	right: 22px;
+	top: 30px;
+	right: 0px;
 }
 .arrows {
 	float: right;
 	margin-right: 467px;
-	margin-top: -34px;
+	margin-top: 28px;
 }
 .man {
 	float: right;
-	margin-top: 18px;
+	margin-top: 80px;
 	margin-right: -55px;
 }
 .dark {
 	background-color: #f2f2f2;
-	height: 200px;
+	width: 100%;
+	-height: 200px;
+	padding-top: 65px;
+	padding-bottom: 120px; 
 }
-.third_block .dark p{
+.dark p{
 	padding: 15px 0 15px 30px;
 	color: #fff;
 	background-color: #e74c3c;
@@ -291,9 +300,14 @@ figcaption {
 	margin-left: 24%;
 	box-sizing: border-box;
 	position: absolute;
-	top: 320px;
+	-margin-top: 40px;
+	font: 25px Helvetica, Arial;
+	
 }
-.third_block .dark p:after{
+.dark a {
+	text-decoration: none;
+}
+.dark p:after{
 	content: url(images/wright.png);
 	position: absolute;
 	top: 16px;
