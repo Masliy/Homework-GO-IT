@@ -519,13 +519,12 @@ footer .logo{
 	position: absolute;
 	left: -125px;
 	bottom: 88px;
+	border-right: 1px solid #2980b9;
+	padding-top: 5px;
 }
-
-
-
-
-
-
+footer .logo:before {
+	top: -1px;
+}
 
 
 
@@ -533,9 +532,10 @@ footer .logo{
 
 .right {
 	position: absolute;
-	left: 200px;
-	top: 50px;
-	width: 540px;
+	left: 283px;
+	top: 40px;
+	width: 500px;
+	border: none;
 }
 .right ul:before {
 	content: "Connect:";
