@@ -1,0 +1,345 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+
+@media screen {
+body {
+	margin: 0 auto;
+	width: 1920px;
+    font-family: Helvetica, Arial;
+	
+}
+.first_block {
+	position: relative;
+}
+header {
+	background-color: #3498db;
+	color: #fff;
+}  
+header p {
+	font-size: 1.6rem;
+    margin: -3px 0 0 472px;
+    padding-bottom: 22px;
+}
+header p:before {
+	content: url(images/logo.png);
+	position: relative;
+	left: -15px;
+	top: 17px;
+}
+header ul:before {
+	content: "Connect:";
+	font-size: 13px;
+	position: relative;
+	top: -5px;
+}
+header li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 2px;
+}
+header ul {
+	position: absolute;
+	right: 470px;
+	top: 32px;
+}
+.first_foto {
+	color: #fff;
+	background-image: url(images/main_foto.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	max-height: 350px; 
+}
+.first_foto .welcome {
+	font-size: 50px;
+    font-weight: bold;
+    padding: 64px 0 0 460px;
+}  
+.first_foto .about {
+	font-size: 30px;
+	width: 600px;
+	padding-bottom: 110px;
+    padding-top: 6px;
+    padding-left: 462px;
+    line-height: 130%;
+} 
+.form {
+	position: absolute;
+	width: 360px;
+	height: 535px;
+	right: 471px;
+	top: 111px;
+	border-bottom: 5px solid #298DD0;
+	background-color: #fff;
+	color: #000;
+} 
+.form .get_started{
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+    left: 91px;
+}    
+.form ul{
+	margin: 77px 0 0 0;
+	list-style: none;
+	font-size: 15px;
+}  
+.form li{
+	width: 306px;
+	background-color: #f2f2f2;
+	margin-top: 10px;
+	padding: 10px 0 8px 13px;
+	color: #636363;
+}
+.form .equal {
+    padding-left: 16px;
+    width: 303px
+    }
+.form input{
+	position: absolute;
+	bottom: 28px;
+	left: 73px;
+	background-color: #e84c3d;
+	color: #fff;
+	padding:7px 66px 10px 70px;
+	font-size: 25px;
+	border: 2px outset #fff;
+}
+.form input:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,.8);
+	cursor: pointer;
+}
+.form .adress{
+	padding-bottom: 48px;
+}
+.choice {
+	position: absolute;
+	top:91px;
+	right: 29px;
+}
+.notice {
+	background-color: #f2f2f2;
+	font-size: 13px;
+    line-height: 150%;
+}   
+.notice .abc{
+	font-size: 15px;
+    font-weight: bold;
+    margin-left: 462px;
+    padding: 32px 0 14px 0;
+}
+.notice p:first-of-type{
+	padding-top: 17px;
+    width: 580px;
+    padding: 0px 0 21px 461px;
+}
+.notice p:last-of-type{
+    padding: 0px 0 68px 461px;
+    width: 580px;
+}
+/*Дальше идет код для блока с тремя фотографиями*/
+.second_block {
+	width: 100%;
+	background-color: #fff;
+	border-bottom: 1px solid #f2f2f2;
+}
+.second_block > p{
+	color: #3498db;
+	font-size: 25px;
+    padding: 32px 0 27px 461px;
+}   
+.first_column {
+	margin-left: 459px;
+	display: inline-block;
+}
+.second_column,
+.third_column {
+	margin-left: 55px;
+    display: inline-block;
+}    
+
+figcaption .row {
+	font-size:15px;
+    font-weight: bold;
+	padding: 19px 0 16px 59px;
+}
+figcaption .row2 {
+    padding-left: 66px;
+}
+figcaption .row3 {
+     padding-left: 56px;   
+}
+figcaption .block {
+	font-size: 13px;
+	text-align: center;
+	line-height: 150%;
+	height: 120px;
+	width: 285px;
+	overflow: hidden;
+    padding-left: 6px;
+}
+figcaption .block2,
+figcaption .block3{
+    padding-left: 0px;
+    line-height: 154%;
+}   
+.view {
+	display: inline-block;
+	position: relative;
+	left: 118px;
+	top: 22px;
+	margin-bottom: 49px;
+}
+.view2 {
+	left: 109px;
+}    
+/*тут отзывы*/
+ .third_block {
+	width: 100%;
+	background-color: #fff;
+	position: relative;
+}   
+.arrows {
+	position: absolute;
+	right: 470px;
+    top: 28px;
+}
+.man {
+	position: absolute;
+	right: 499px;
+    top: 81px;
+}
+.third_block p:first-of-type {
+	color: #3498db;
+	font-size: 25px;
+    padding: 33px 0 0 461px;
+}
+.cite{
+    width: 730px;
+	position: relative;
+	line-height: 150%;
+    padding: 55px 0 100px 461px;
+    font-size: 13px;
+}
+.cite:before {
+	content: url(images/start.png);
+	position: absolute;
+	top: 20px;
+} 
+.cite span{
+	position: absolute;
+	right: 6px;
+	bottom: 68px;
+	font-size: 14px;
+    font-weight: bold;
+}
+.cite span:after{
+	content: url(images/stop.png);
+	position: absolute;
+	top: 30px;
+	right: 0px;
+}
+.dark {
+	background-color: #f2f2f2;
+	width: 100%;
+    padding: 67px 0 122px 0;
+}  
+.dark p{
+	padding: 15px 0px 15px 30px;
+	color: #fff;
+	background-color: #e74c3c;
+	width: 540px;
+	box-sizing: border-box;
+	position: absolute;
+	font-size: 25px;
+    left: 459px;
+}
+.dark a {
+	text-decoration: none;
+}
+.dark p:after{
+	content: url(images/wright.png);
+	position: absolute;
+	top: 15px;
+	right: 22px;
+}
+footer{
+	background-color: #3598DB;
+	height: 200px;
+	color: #fff;
+	font-size: 13px;
+}
+footer .logo{
+	width: 177px;
+	font-size: 26px;
+    padding: 55px 0 0 538px;
+	line-height: 110%;
+	position: relative;
+}
+footer .logo:before {
+	content: url(images/bottomlogo.png);
+	position: absolute;
+	right: 189px;
+	top: 51px;
+}
+.right {
+	position: relative;
+	border-left: 1px solid #2980b9;
+	height: 60px;
+	width: 700px;
+	left: 714px;
+	top: -60px;
+} 
+.right ul:before {
+	content: "Connect:";
+	position: absolute;
+    left: -40px;
+    top: 2px;
+}
+.right li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 3px;
+}
+.right ul {
+	position: absolute;
+	left: 62px;
+	top: 8px;
+}
+    
+    
+.right span{
+	position: absolute;
+	top: 36px;
+	left: 22px;
+}
+
+}

@@ -44,13 +44,13 @@ header {
 	padding: 25px 0 20px 0;
 	color: #fff;
 }
-header h3 {
+header p {
 	font: 1.6rem Helvetica, Arial;
 	padding-left: 24.7%;
 	display: inline-block;
 	margin-top: -30px;
 }
-header h3:before {
+header p:before {
 	content: url(images/logo.png);
 	position: relative;
 	left: -15px;
@@ -245,7 +245,6 @@ figcaption {
 	line-height: 150%;
 	padding-bottom: 100px;
 	word-spacing: -0.05em;
-	box-sizing: border-box;
 	overflow: hidden;
 }
 .cite:before {
@@ -366,7 +365,7 @@ body {
 header {
 	padding: 23px 0 22px 0;
 }
-header h3 {
+header p {
 	padding-left: 35px;
 }
 header ul {
@@ -567,13 +566,13 @@ body {
 	margin: 0 auto;
 	width: 320px;
 }
-header h3,
+header p,
 .form input,
 .second_block > p,
 .third_block p:first-of-type {
 	font-size: 20px;
 }
-header h3 {
+header p {
 	width: 170px;
 	text-align: center;
 	padding-bottom: 5px;
@@ -581,7 +580,7 @@ header h3 {
 	margin: 50px 0 33px 77px; 
 	border-bottom: 1px solid #2980b9; 
 }
-header h3:before {
+header p:before {
 	position: absolute;
 	left: 130px;
 	top: 15px;
