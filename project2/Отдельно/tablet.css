@@ -179,6 +179,7 @@ header ul {
 	margin-left: 21px;
     position: relative;
     margin-bottom: 51px;
+    display: block;
 }
 figcaption .row,
 figcaption .row2,
@@ -188,6 +189,8 @@ figcaption .row3  {
     position: absolute;
     left: 312px;
     top: -2px;
+    padding: 0;/*без него подтягивается padding с основоного
+    css main, и происходит смещение*/
 }  
 figcaption .block {
     position: absolute;
@@ -197,6 +200,7 @@ figcaption .block {
 	line-height: 155%;
 	width: 435px;
 	overflow: hidden;
+    text-align: left;
 }
 figcaption .block span{
     display: inline-block;
@@ -206,8 +210,8 @@ figcaption .block span{
 .view {
 	display: block;
 	position: absolute;
-	left: 312px;
-	top: 125px;
+	left: 313px;
+	top: 127px;
 }
 figcaption .block2,
 figcaption .block3{
@@ -215,7 +219,7 @@ figcaption .block3{
     line-height: 154%;
 }   
 .view2 {
-	top: 127px;
+	top: 129px;
 }
 .view3 {
 	top: 123px;
@@ -276,7 +280,7 @@ figcaption .block3{
 .dark {
 	background-color: #f2f2f2;
 	width: 100%;
-    padding: 67px 0 122px 0;
+    padding: 67px 0 124px 0;
 }
 .dark p{
 	padding: 18px 0px 18px 30px;
@@ -306,29 +310,32 @@ figcaption .block3{
     
 footer{
 	background-color: #3598DB;
-	height: 200px;
+	height: 193px;
 	color: #fff;
 	font-size: 13px;
 }
 footer .logo{
 	width: 177px;
 	font-size: 26px;
-    padding: 55px 0 0 538px;
+    padding: 54px 0 0 100px;
 	line-height: 110%;
 	position: relative;
 }
 footer .logo:before {
 	content: url(images/bottomlogo.png);
 	position: absolute;
-	right: 189px;
-	top: 51px;
+	right: 187px;
+	top: 48px;
 }
+    
+    
+    
 .right {
 	position: relative;
 	border-left: 1px solid #2980b9;
 	height: 60px;
 	width: 700px;
-	left: 714px;
+	left: 276px;
 	top: -60px;
 } 
 .right ul:before {
@@ -345,14 +352,16 @@ footer .logo:before {
 .right ul {
 	position: absolute;
 	left: 62px;
-	top: 8px;
+	top: -2px;
 }
     
     
 .right span{
 	position: absolute;
-	top: 36px;
+	top: 26px;
 	left: 22px;
+     width: 470px;
+    line-height: 125%;
 }
 
 }
