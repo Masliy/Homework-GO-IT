@@ -228,22 +228,22 @@ figcaption .block3{
 .third_column {
     margin-bottom: 0;
     padding-bottom: 35px;
-    border-bottom: 1px solid #f2f2f2;
 } 
 /*тут отзывы*/
  .third_block {
-	width: 100%;
+	width: 760px;
 	background-color: #fff;
 	position: relative;
+    margin-left: 0;
 }   
 .arrows {
 	position: absolute;
-	right: 20px;
+	right: -19px;
 	top: 30px;
 }  
 .man {
 	position: absolute;
-	right: 22px;
+	right: -17px;
 	top:83px;
 }
 .third_block p:first-of-type {
@@ -262,8 +262,7 @@ figcaption .block3{
 	content: url(images/start.png);
 	position: absolute;
 	top: 20px;
-}
-    
+} 
 .cite span{
 	position: absolute;
 	right: 10px;
@@ -281,6 +280,8 @@ figcaption .block3{
 	background-color: #f2f2f2;
 	width: 100%;
     padding: 67px 0 124px 0;
+    position: relative;
+    z-index: -1;
 }
 .dark p{
 	padding: 18px 0px 18px 30px;
@@ -290,7 +291,7 @@ figcaption .block3{
 	box-sizing: border-box;
 	position: absolute;
 	font-size: 20px;
-    left: 100px;
+    left: 20px;
 }
 .dark a {
 	text-decoration: none;
@@ -300,14 +301,7 @@ figcaption .block3{
 	position: absolute;
 	top: 17px;
 	right: 33px;
-}
-    
-    
-    
-    
-    
-    
-    
+} 
 footer{
 	background-color: #3598DB;
 	height: 193px;
@@ -327,9 +321,6 @@ footer .logo:before {
 	right: 187px;
 	top: 48px;
 }
-    
-    
-    
 .right {
 	position: relative;
 	border-left: 1px solid #2980b9;
@@ -354,8 +345,6 @@ footer .logo:before {
 	left: 62px;
 	top: -2px;
 }
-    
-    
 .right span{
 	position: absolute;
 	top: 26px;
@@ -363,5 +352,4 @@ footer .logo:before {
      width: 470px;
     line-height: 125%;
 }
-
 }
