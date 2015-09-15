@@ -1,0 +1,358 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+
+
+
+@media screen and (min-width:800px) and (max-width:1000px) {
+body {
+	margin: 0 auto;
+	width: 800px;
+    font-family: Helvetica, Arial;
+}
+.first_block {
+	position: relative;
+}
+header {
+	background-color: #3498db;
+	color: #fff;
+}  
+header p {
+	font-size: 26px;
+    margin: -3px 0 0 32px;
+    padding-bottom: 23px;
+}
+header p:before {
+	content: url(images/logo.png);
+	position: relative;
+	left: -15px;
+	top: 17px;
+}
+header ul:before {
+	content: "Connect:";
+	font-size: 13px;
+	position: relative;
+	top: -6px;
+    left: -2px;
+}
+header li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 2px;
+}
+header ul {
+	position: absolute;
+	right: 20px;
+	top: 33px
+}
+.first_foto {
+	color: #fff;
+	background-image: url(images/tablet_main_foto.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	max-height: 350px; 
+}
+.first_foto .welcome {
+	font-size: 45px;
+    font-weight: bold;
+    padding: 82px 0 0 23px;
+} 
+.first_foto .about {
+	font-size: 25px;
+	width: 400px;
+    line-height: 150%;
+    padding: 5px 0 120px 23px;
+}   
+.form {
+	position: absolute;
+	width: 340px;
+	height: 535px;
+	right: 21px;
+	top: 114px;
+	border-bottom: 5px solid #298DD0;
+	background-color: #fff;
+	color: #000;
+}   
+.form .get_started{
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}   
+.form ul{
+	margin: 77px 0 0 0;
+	list-style: none;
+	font-size: 15px;
+}  
+.form li{
+	width: 285px;
+	background-color: #f2f2f2;
+	margin-top: 10px;
+	padding: 10px 0 8px 13px;
+	color: #636363;
+}
+.form .equal {
+    padding-left: 16px;
+    width: 282px
+}
+.form input{
+	position: absolute;
+	bottom: 28px;
+	left: 73px;
+	background-color: #e84c3d;
+	color: #fff;
+	padding:10px 64px 10px 68px;
+	font-size: 20px;
+	border: 2px outset #fff;
+}  
+.form input:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,.8);
+	cursor: pointer;
+}
+.form .adress{
+	padding-bottom: 48px;
+}
+.choice {
+	position: absolute;
+	top:91px;
+	right: 29px;
+}
+.notice {
+	background-color: #f2f2f2;
+	font-size: 13px;
+    line-height: 153%;
+}   
+.notice .abc{
+	font-size: 15px;
+    font-weight: bold;
+    padding: 25px 0 14px 23px;
+}
+.notice p:first-of-type{
+    width: 400px;
+    padding: 0px 0 21px 23px;
+}
+.notice p:last-of-type{
+    padding: 0px 0 32px 23px;
+    width: 400px;
+}
+/*Дальше идет код для блока с тремя фотографиями*/ 
+.second_block {
+	width: 100%;
+	background-color: #fff;
+}
+.second_block > p{
+	color: #3498db;
+	font-size: 20px;
+    padding: 36px 0 29px 23px;
+} 
+.first_column,
+.second_column,
+.third_column {
+	margin-left: 21px;
+    position: relative;
+    margin-bottom: 51px;
+}
+figcaption .row,
+figcaption .row2,
+figcaption .row3  {
+	font-size:15px;
+    font-weight: bold;
+    position: absolute;
+    left: 312px;
+    top: -2px;
+}  
+figcaption .block {
+    position: absolute;
+	top: 31px;
+	left: 311px;
+	font-size: 13px;
+	line-height: 155%;
+	width: 435px;
+	overflow: hidden;
+}
+figcaption .block span{
+    display: inline-block;
+    transform: scale(0.2,1);
+    margin-left: -5px;
+}
+.view {
+	display: block;
+	position: absolute;
+	left: 312px;
+	top: 125px;
+}
+figcaption .block2,
+figcaption .block3{
+    padding-left: 0px;
+    line-height: 154%;
+}   
+.view2 {
+	top: 127px;
+}
+.view3 {
+	top: 123px;
+} 
+/*нужен чтоб нарисовать и отодвинуть границу второго блока*/
+.third_column {
+    margin-bottom: 0;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #f2f2f2;
+} 
+/*тут отзывы*/
+ .third_block {
+	width: 100%;
+	background-color: #fff;
+	position: relative;
+}   
+.arrows {
+	position: absolute;
+	right: 20px;
+	top: 30px;
+}  
+.man {
+	position: absolute;
+	right: 22px;
+	top:83px;
+}
+.third_block p:first-of-type {
+	color: #3498db;
+	font-size: 20px;
+    padding: 39px 0 0 23px;
+}
+.cite{
+    width: 542px;
+	position: relative;
+	line-height: 150%;
+    padding: 55px 0 80px 22;
+    font-size: 13px;
+}
+.cite:before {
+	content: url(images/start.png);
+	position: absolute;
+	top: 20px;
+}
+    
+.cite span{
+	position: absolute;
+	right: 10px;
+	bottom: 55px;
+	font-size: 13px;
+    font-weight: bold;
+}
+.cite span:after{
+	content: url(images/stop.png);
+	position: absolute;
+	top: 32px;
+	right: -6px;
+}
+.dark {
+	background-color: #f2f2f2;
+	width: 100%;
+    padding: 67px 0 122px 0;
+}
+.dark p{
+	padding: 18px 0px 18px 30px;
+	color: #fff;
+	background-color: #e74c3c;
+	width: 470px;
+	box-sizing: border-box;
+	position: absolute;
+	font-size: 20px;
+    left: 100px;
+}
+.dark a {
+	text-decoration: none;
+}
+.dark p:after{
+	content: url(images/wright.png);
+	position: absolute;
+	top: 17px;
+	right: 33px;
+}
+    
+    
+    
+    
+    
+    
+    
+footer{
+	background-color: #3598DB;
+	height: 200px;
+	color: #fff;
+	font-size: 13px;
+}
+footer .logo{
+	width: 177px;
+	font-size: 26px;
+    padding: 55px 0 0 538px;
+	line-height: 110%;
+	position: relative;
+}
+footer .logo:before {
+	content: url(images/bottomlogo.png);
+	position: absolute;
+	right: 189px;
+	top: 51px;
+}
+.right {
+	position: relative;
+	border-left: 1px solid #2980b9;
+	height: 60px;
+	width: 700px;
+	left: 714px;
+	top: -60px;
+} 
+.right ul:before {
+	content: "Connect:";
+	position: absolute;
+    left: -40px;
+    top: 2px;
+}
+.right li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 3px;
+}
+.right ul {
+	position: absolute;
+	left: 62px;
+	top: 8px;
+}
+    
+    
+.right span{
+	position: absolute;
+	top: 36px;
+	left: 22px;
+}
+
+}
