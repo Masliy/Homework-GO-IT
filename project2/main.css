@@ -30,7 +30,7 @@ table {
 /* end reset browser styles */
 
 
-@media screen {
+@media (min-width:1000px) {
 body {
 	margin: 0 auto;
 	width: 1920px;
@@ -231,11 +231,7 @@ figcaption .block3{
 	right: 10px;
     top: 28px;
 }
-.man {
-	position: absolute;
-	right: 39px;
-    top: 81px;
-}
+
 .third_block p:first-of-type {
 	color: #3498db;
 	font-size: 25px;
@@ -270,7 +266,13 @@ figcaption .block3{
 	background-color: #f2f2f2;
 	width: 100%;
     padding: 67px 0 122px 0;
-}  
+    position: relative;
+}
+.man {
+	position: absolute;
+	right: 498px;
+    bottom: 0;
+}
 .dark p{
 	padding: 15px 0px 15px 30px;
 	color: #fff;

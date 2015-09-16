@@ -32,10 +32,10 @@ table {
 
 
 
-@media screen and (min-width:0px) and (max-width:800px) {
+@media (min-width:800px) and (max-width:1000px) {
 body {
 	margin: 0 auto;
-	width: 320px;
+	width: 800px;
     font-family: Helvetica, Arial;
 }
 .first_block {
@@ -44,21 +44,17 @@ body {
 header {
 	background-color: #3498db;
 	color: #fff;
-    height: 160px;
-}   
+}  
 header p {
-	font-size: 20px;
-    width: 175px;
-	border-bottom: 1px solid #2980b9;
-    padding: 76px 0 5px 5px;
-    box-sizing: border-box;
-    margin: 0 0 0 73px;
+	font-size: 26px;
+    margin: -3px 0 0 32px;
+    padding-bottom: 23px;
 }
 header p:before {
 	content: url(images/logo.png);
-	position: absolute;
-	left: 131px;
-	top: 16px;
+	position: relative;
+	left: -15px;
+	top: 17px;
 }
 header ul:before {
 	content: "Connect:";
@@ -74,34 +70,33 @@ header li {
 }
 header ul {
 	position: absolute;
-	right: 89px;
-	top: 117px;
+	right: 20px;
+	top: 33px
 }
 .first_foto {
 	color: #fff;
-	background-image: url(images/mobile_main_foto.png);
+	background-image: url(images/tablet_main_foto.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	max-height: 350px; 
 }
 .first_foto .welcome {
-	font-size: 40px;
+	font-size: 45px;
     font-weight: bold;
-    padding: 30px 0 0 58px;
+    padding: 82px 0 0 23px;
 } 
 .first_foto .about {
-	font-size: 16px;
-	width: 250px;
-    line-height: 170%;
-    padding: 5px 0 185px 40px;
-    text-align: center;
-}    
+	font-size: 25px;
+	width: 400px;
+    line-height: 150%;
+    padding: 5px 0 120px 23px;
+}   
 .form {
 	position: absolute;
+	width: 340px;
 	height: 535px;
-	width: 300px;
-	left: 10px;
-	top: 357px;
+	right: 21px;
+	top: 114px;
 	border-bottom: 5px solid #298DD0;
 	background-color: #fff;
 	color: #000;
@@ -110,15 +105,15 @@ header ul {
     font-size: 20px;
     position: absolute;
     top: 30px;
-    left: 80px;
-}
+    left: 100px;
+}   
 .form ul{
 	margin: 77px 0 0 0;
 	list-style: none;
 	font-size: 15px;
 }  
 .form li{
-	width: 245px;
+	width: 285px;
 	background-color: #f2f2f2;
 	margin-top: 10px;
 	padding: 10px 0 8px 13px;
@@ -126,18 +121,18 @@ header ul {
 }
 .form .equal {
     padding-left: 16px;
-    width: 242px
+    width: 282px
 }
 .form input{
 	position: absolute;
-	bottom: 29px;
-	left: 50px;
+	bottom: 28px;
+	left: 73px;
 	background-color: #e84c3d;
 	color: #fff;
 	padding:10px 64px 10px 68px;
 	font-size: 20px;
 	border: 2px outset #fff;
-}
+}  
 .form input:hover {
 	box-shadow: 0 0 10px rgba(0,0,0,.8);
 	cursor: pointer;
@@ -156,113 +151,95 @@ header ul {
     line-height: 153%;
 }   
 .notice .abc{
-    margin: 0;
 	font-size: 15px;
     font-weight: bold;
-    padding: 413px 0 14px 93px;
+    padding: 25px 0 14px 23px;
 }
-.notice p:first-of-type,
-.notice p:last-of-type {
-    padding: 0 0 21px 20px;
-    text-align: center;
-    width: 280px;
+.notice p:first-of-type{
+    width: 400px;
+    padding: 0px 0 21px 23px;
 }
 .notice p:last-of-type{
-    padding-bottom: 34px;/*чтоб задать нижнюю границу блоку
-    серого цвета*/
+    padding: 0px 0 32px 23px;
+    width: 400px;
 }
 /*Дальше идет код для блока с тремя фотографиями*/ 
 .second_block {
-	position: relative;
+	width: 100%;
 	background-color: #fff;
 }
 .second_block > p{
 	color: #3498db;
 	font-size: 20px;
-    padding: 30px 0 28px 62px;
+    padding: 36px 0 29px 23px;
 } 
 .first_column,
 .second_column,
 .third_column {
-    margin: 0 0 0 15px;
+	margin-left: 21px;
     position: relative;
-    -display: block;
+    margin-bottom: 51px;
+    display: block;
 }
 figcaption .row,
 figcaption .row2,
 figcaption .row3  {
 	font-size:15px;
     font-weight: bold;
-    padding: 20px 0 15px 54px;
-    width: 280px;
-}
-figcaption .row2{
-    padding: 18px 0 15px 66px;
-}
+    position: absolute;
+    left: 312px;
+    top: -2px;
+    padding: 0;/*без него подтягивается padding с основоного
+    css main, и происходит смещение*/
+}  
 figcaption .block {
-    padding: 0 0 0 4px;
-    width: 280px;
+    position: absolute;
+	top: 31px;
+	left: 311px;
 	font-size: 13px;
 	line-height: 155%;
+	width: 435px;
 	overflow: hidden;
-    max-height: 120px;
-    text-align: center;
+    text-align: left;
 }
 figcaption .block span{
     display: inline-block;
-    transform: none;/*это было надо для уменьшения переноса 
-    в таблет варианте*/
+    transform: scale(0.2,1);
     margin-left: -5px;
 }
 .view {
-    display: block;
-    position: relative;
-    padding: 21px 0 35px 117px;
-    margin: 0;
-    top: -2px;
-    left: 0;
+	display: block;
+	position: absolute;
+	left: 313px;
+	top: 127px;
 }
-    
 figcaption .block2,
-figcaption .block3 {
-    padding-left: 3px;
+figcaption .block3{
+    padding-left: 0px;
     line-height: 154%;
-}
-    
+}   
 .view2 {
-    position: relative;
-	top: 0;
-    left: 0;
-    padding-bottom: 27px;
+	top: 129px;
 }
 .view3 {
-    position: relative;
-	top: 0;
-    left: 0;
+	top: 123px;
 } 
-    
-    
-    
-/*нужен чтоб нарисовать и отодвинуть границу второго блока*/
-
+.third_column {
+    margin-bottom: 0;
+    padding-bottom: 35px;
+} 
 /*тут отзывы*/
  .third_block {
-	width: 100%;
+	width: 760px;
 	background-color: #fff;
 	position: relative;
-    margin: 0;
-    border: none;
+    margin-left: 0;
 }   
 .arrows {
 	position: absolute;
-	right: 20px;
+	right: -19px;
 	top: 30px;
-}  
-.man {
-	position: absolute;
-	right: 22px;
-	top:83px;
-}
+} 
 .third_block p:first-of-type {
 	color: #3498db;
 	font-size: 20px;
@@ -299,6 +276,11 @@ figcaption .block3 {
     padding: 67px 0 124px 0;
     position: relative;
 }
+.man {
+	position: absolute;
+	right: 22px;
+	top:-172px;
+}
 .dark p{
 	padding: 18px 0px 18px 30px;
 	color: #fff;
@@ -308,6 +290,7 @@ figcaption .block3 {
 	position: absolute;
 	font-size: 20px;
     left: 20px;
+    z-index: 1;
 }
 .dark a {
 	text-decoration: none;

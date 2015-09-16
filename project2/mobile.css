@@ -32,10 +32,10 @@ table {
 
 
 
-@media screen and (min-width:800px) and (max-width:1000px) {
+@media (min-width:320px) and (max-width:799px) {
 body {
 	margin: 0 auto;
-	width: 800px;
+	width: 320px;
     font-family: Helvetica, Arial;
 }
 .first_block {
@@ -44,17 +44,21 @@ body {
 header {
 	background-color: #3498db;
 	color: #fff;
-}  
+    height: 160px;
+}   
 header p {
-	font-size: 26px;
-    margin: -3px 0 0 32px;
-    padding-bottom: 23px;
+	font-size: 20px;
+    width: 175px;
+	border-bottom: 1px solid #2980b9;
+    padding: 76px 0 5px 5px;
+    box-sizing: border-box;
+    margin: 0 0 0 73px;
 }
 header p:before {
 	content: url(images/logo.png);
-	position: relative;
-	left: -15px;
-	top: 17px;
+	position: absolute;
+	left: 131px;
+	top: 16px;
 }
 header ul:before {
 	content: "Connect:";
@@ -70,33 +74,34 @@ header li {
 }
 header ul {
 	position: absolute;
-	right: 20px;
-	top: 33px
+	right: 89px;
+	top: 117px;
 }
 .first_foto {
 	color: #fff;
-	background-image: url(images/tablet_main_foto.png);
+	background-image: url(images/mobile_main_foto.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	max-height: 350px; 
 }
 .first_foto .welcome {
-	font-size: 45px;
+	font-size: 40px;
     font-weight: bold;
-    padding: 82px 0 0 23px;
+    padding: 30px 0 0 58px;
 } 
 .first_foto .about {
-	font-size: 25px;
-	width: 400px;
-    line-height: 150%;
-    padding: 5px 0 120px 23px;
-}   
+	font-size: 16px;
+	width: 250px;
+    line-height: 170%;
+    padding: 5px 0 185px 40px;
+    text-align: center;
+}    
 .form {
 	position: absolute;
-	width: 340px;
 	height: 535px;
-	right: 21px;
-	top: 114px;
+	width: 300px;
+	left: 10px;
+	top: 357px;
 	border-bottom: 5px solid #298DD0;
 	background-color: #fff;
 	color: #000;
@@ -105,15 +110,15 @@ header ul {
     font-size: 20px;
     position: absolute;
     top: 30px;
-    left: 100px;
-}   
+    left: 80px;
+}
 .form ul{
 	margin: 77px 0 0 0;
 	list-style: none;
 	font-size: 15px;
 }  
 .form li{
-	width: 285px;
+	width: 245px;
 	background-color: #f2f2f2;
 	margin-top: 10px;
 	padding: 10px 0 8px 13px;
@@ -121,18 +126,18 @@ header ul {
 }
 .form .equal {
     padding-left: 16px;
-    width: 282px
+    width: 242px
 }
 .form input{
 	position: absolute;
-	bottom: 28px;
-	left: 73px;
+	bottom: 29px;
+	left: 50px;
 	background-color: #e84c3d;
 	color: #fff;
 	padding:10px 64px 10px 68px;
 	font-size: 20px;
 	border: 2px outset #fff;
-}  
+}
 .form input:hover {
 	box-shadow: 0 0 10px rgba(0,0,0,.8);
 	cursor: pointer;
@@ -151,147 +156,166 @@ header ul {
     line-height: 153%;
 }   
 .notice .abc{
+    margin: 0;
 	font-size: 15px;
     font-weight: bold;
-    padding: 25px 0 14px 23px;
+    padding: 413px 0 14px 93px;
 }
-.notice p:first-of-type{
-    width: 400px;
-    padding: 0px 0 21px 23px;
+.notice p:first-of-type,
+.notice p:last-of-type {
+    padding: 0 0 21px 20px;
+    text-align: center;
+    width: 280px;
 }
 .notice p:last-of-type{
-    padding: 0px 0 32px 23px;
-    width: 400px;
+    padding-bottom: 34px;/*чтоб задать нижнюю границу блоку
+    серого цвета*/
 }
 /*Дальше идет код для блока с тремя фотографиями*/ 
 .second_block {
-	width: 100%;
+	position: relative;
 	background-color: #fff;
 }
 .second_block > p{
 	color: #3498db;
 	font-size: 20px;
-    padding: 36px 0 29px 23px;
+    padding: 30px 0 28px 62px;
 } 
 .first_column,
 .second_column,
 .third_column {
-	margin-left: 21px;
+    margin: 0 0 0 15px;
     position: relative;
-    margin-bottom: 51px;
-    display: block;
+    -display: block;
 }
 figcaption .row,
 figcaption .row2,
 figcaption .row3  {
 	font-size:15px;
     font-weight: bold;
-    position: absolute;
-    left: 312px;
-    top: -2px;
-    padding: 0;/*без него подтягивается padding с основоного
-    css main, и происходит смещение*/
-}  
+    padding: 20px 0 15px 54px;
+    width: 280px;
+}
+figcaption .row2{
+    padding: 18px 0 15px 66px;
+}
 figcaption .block {
-    position: absolute;
-	top: 31px;
-	left: 311px;
+    padding: 0 0 0 4px;
+    width: 280px;
 	font-size: 13px;
 	line-height: 155%;
-	width: 435px;
 	overflow: hidden;
-    text-align: left;
+    max-height: 120px;
+    text-align: center;
 }
 figcaption .block span{
     display: inline-block;
-    transform: scale(0.2,1);
+    transform: none;/*это было надо для уменьшения переноса 
+    в таблет варианте*/
     margin-left: -5px;
 }
 .view {
-	display: block;
-	position: absolute;
-	left: 313px;
-	top: 127px;
+    display: block;
+    position: relative;
+    padding: 21px 0 35px 117px;
+    margin: 0;
+    top: -2px;
+    left: 0;
 }
+    
 figcaption .block2,
-figcaption .block3{
-    padding-left: 0px;
+figcaption .block3 {
+    padding-left: 3px;
     line-height: 154%;
-}   
+}
+    
 .view2 {
-	top: 129px;
+    position: relative;
+	top: 0;
+    left: 0;
+    padding-bottom: 27px;
 }
 .view3 {
-	top: 123px;
+    position: relative;
+	top: 0;
+    left: 0;
+    padding-bottom: 42px;/*для отталкивания бордера .third_block*/
 } 
-/*нужен чтоб нарисовать и отодвинуть границу второго блока*/
-.third_column {
-    margin-bottom: 0;
-    padding-bottom: 35px;
-} 
+   
 /*тут отзывы*/
  .third_block {
-	width: 760px;
+    width: 280px;
 	background-color: #fff;
 	position: relative;
-    margin-left: 0;
+    margin: 0;
+    border-top: 1px solid #f2f2f2;
 }   
 .arrows {
 	position: absolute;
-	right: -19px;
-	top: 30px;
-}  
-.man {
-	position: absolute;
-	right: -17px;
-	top:83px;
-}
+	right: 82px;
+	top: 110px;
+}    
+
 .third_block p:first-of-type {
+    width: 280px;
 	color: #3498db;
 	font-size: 20px;
-    padding: 39px 0 0 23px;
+    padding: 36px 0 0 15px;
+    line-height: 150%;
+    text-align: center;
 }
 .cite{
-    width: 542px;
+    width: 275px;
 	position: relative;
 	line-height: 150%;
-    padding: 55px 0 80px 22;
+    padding: 107px 0 80px 20px;
     font-size: 13px;
-}
-.cite:before {
-	content: url(images/start.png);
-	position: absolute;
-	top: 20px;
 } 
 .cite span{
 	position: absolute;
-	right: 10px;
-	bottom: 55px;
+	right: -5px;
+	bottom: 45px;
 	font-size: 13px;
     font-weight: bold;
-}
+}  
+.cite:before {
+	content: url(images/start.png);
+	position: absolute;
+	top: 75px;
+} 
 .cite span:after{
 	content: url(images/stop.png);
 	position: absolute;
-	top: 32px;
-	right: -6px;
+	top: 22px;
+	right: 0px;
 }
 .dark {
 	background-color: #f2f2f2;
 	width: 100%;
-    padding: 67px 0 124px 0;
+    margin-top: 105px;
+    padding: 67px 0 174px 0;
     position: relative;
-    z-index: -1;
+}
+.man {
+	position: absolute;
+	right: 44px;
+	top: -123px;
+    z-index: 1;
 }
 .dark p{
-	padding: 18px 0px 18px 30px;
+	padding: 10px 20px 20px 30px;
+    line-height: 160%;
 	color: #fff;
 	background-color: #e74c3c;
-	width: 470px;
+	width: 300px;
+    height: 130px;
+    text-align: center;
 	box-sizing: border-box;
 	position: absolute;
 	font-size: 20px;
-    left: 20px;
+    left: 10px;
+    top: 60px;
+    z-index: 2;
 }
 .dark a {
 	text-decoration: none;
@@ -299,35 +323,44 @@ figcaption .block3{
 .dark p:after{
 	content: url(images/wright.png);
 	position: absolute;
-	top: 17px;
-	right: 33px;
+	top: 83px;
+	right: 128px;
 } 
 footer{
 	background-color: #3598DB;
-	height: 193px;
+	height: 310px;
 	color: #fff;
 	font-size: 13px;
+    position: relative;
 }
 footer .logo{
-	width: 177px;
-	font-size: 26px;
-    padding: 54px 0 0 100px;
-	line-height: 110%;
+	width: 200px;
+	font-size: 20px;
+    font-weight: normal;
+    padding: 93px 0 7px 20px;
+    margin-left: 57px;
 	position: relative;
+    box-sizing: border-box;
+    border-bottom: 1px solid #2980b9;
 }
 footer .logo:before {
-	content: url(images/bottomlogo.png);
+	content: url(images/bottom_mobile_logo.png);
 	position: absolute;
-	right: 187px;
-	top: 48px;
+	right: 71px;
+	top: 32px;
 }
+.right ul {
+	position: absolute;
+	left: 75px;
+	top: 133px;
+}  
 .right {
-	position: relative;
-	border-left: 1px solid #2980b9;
+	position: absolute;
+	border: none;
 	height: 60px;
-	width: 700px;
-	left: 276px;
-	top: -60px;
+	width: 300px;
+	left: 56px;
+	top: 0px;
 } 
 .right ul:before {
 	content: "Connect:";
@@ -340,16 +373,13 @@ footer .logo:before {
 	display: inline-block;
 	padding-right: 3px;
 }
-.right ul {
-	position: absolute;
-	left: 62px;
-	top: -2px;
-}
+
 .right span{
 	position: absolute;
-	top: 26px;
-	left: 22px;
-     width: 470px;
-    line-height: 125%;
+    text-align: center;
+	top: 194px;
+	left: -27px;
+     width: 250px;
+    line-height: 130%;
 }
 }
