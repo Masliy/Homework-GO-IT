@@ -260,7 +260,7 @@ figcaption .block3{
 .cite span{
 	position: absolute;
 	right: 10px;
-	bottom: 55px;
+	bottom: 5px;
 	font-size: 13px;
     font-weight: bold;
 }
@@ -324,9 +324,11 @@ footer .logo:before {
 	position: relative;
 	border-left: 1px solid #2980b9;
 	height: 60px;
-	width: 700px;
+	width: 300px;
 	left: 276px;
 	top: -60px;
+    
+    
 } 
 .right ul:before {
 	content: "Connect:";
