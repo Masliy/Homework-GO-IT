@@ -124,6 +124,7 @@ form {
     word-spacing: .1em;
     margin-bottom: 10px;
     border: 1px solid #DFDFDF ;
+    line-height: 17px;
 }
 .form input:focus,
 .form textarea:focus {
@@ -132,7 +133,8 @@ form {
 }
 .form textarea{ 
     height: 75px;
-    resize: none; 
+    resize: none;
+    
 }
 .form textarea::-webkit-textarea-placeholder/*не работает*/ ,   
 .form input::-webkit-input-placeholder {
