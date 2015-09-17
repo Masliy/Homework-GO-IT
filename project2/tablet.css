@@ -107,43 +107,65 @@ header ul {
     top: 30px;
     left: 100px;
 }   
-.form ul{
-	margin: 77px 0 0 0;
-	list-style: none;
-	font-size: 15px;
-}  
-.form li{
-	width: 285px;
-	background-color: #f2f2f2;
-	margin-top: 10px;
-	padding: 10px 0 8px 13px;
-	color: #636363;
+form {
+    position: absolute;
+    left: 20px;
+    top: 78px;
+    width: 300px;
+    height: 430px;
 }
-.form .equal {
-    padding-left: 16px;
-    width: 282px
+.form input,
+.form textarea {
+    background-color: #f2f2f2;
+    width: 300px;
+    height: 36px;
+    box-sizing: border-box;
+    padding: 6px 0 10px 14px;
+    word-spacing: .1em;
+    margin-bottom: 10px;
+    border: 1px solid #DFDFDF ;
 }
-.form input{
+.form input:focus,
+.form textarea:focus {
+    box-shadow: 0 0 2px 2px rgba(0,0,205,.9);
+    outline: none; 
+}
+.form textarea{ 
+    height: 75px;
+    resize: none; 
+}
+.form textarea::-webkit-textarea-placeholder/*не работает*/ ,   
+.form input::-webkit-input-placeholder {
+    font-size: 15px;
+    color: #000;
+}
+.form textarea::-moz-placeholder /*не работает*/,
+.form input::-moz-placeholder{
+    color: #000;
+    font-size: 15px;
+}
+.form input[type="submit"]{
 	position: absolute;
-	bottom: 28px;
-	left: 73px;
+	bottom: 2px;
+	left: 53px;
 	background-color: #e84c3d;
 	color: #fff;
-	padding:10px 64px 10px 68px;
+    width: 202px;
+    height: 52px;
+    box-sizing: border-box;
+	padding:7px 0 10px 5px;
 	font-size: 20px;
-	border: 2px outset #fff;
-}  
-.form input:hover {
+    margin-bottom: 0;
+}
+.form input[type="submit"]:hover {
 	box-shadow: 0 0 10px rgba(0,0,0,.8);
 	cursor: pointer;
 }
-.form .adress{
-	padding-bottom: 48px;
-}
 .choice {
 	position: absolute;
-	top:91px;
-	right: 29px;
+	top:13px;
+	right: 10px;
+    z-index: 1;
 }
 .notice {
 	background-color: #f2f2f2;
