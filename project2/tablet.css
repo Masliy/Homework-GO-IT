@@ -249,7 +249,7 @@ figcaption .block3{
     width: 542px;
 	position: relative;
 	line-height: 150%;
-    padding: 55px 0 80px 22;
+    padding: 55px 0 80px 22px;
     font-size: 13px;
 }
 .cite:before {
@@ -260,7 +260,7 @@ figcaption .block3{
 .cite span{
 	position: absolute;
 	right: 10px;
-	bottom: 5px;
+	bottom: 52px;
 	font-size: 13px;
     font-weight: bold;
 }
