@@ -30,10 +30,23 @@ table {
 /* end reset browser styles */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width:1000px) {
 body {
 	margin: 0 auto;
-	width: 1920px;
+	max-width: 1920px;
+    min-width: 998px;
     font-family: Helvetica, Arial;
 }
 .first_block {
@@ -42,11 +55,14 @@ body {
 header {
 	background-color: #3498db;
 	color: #fff;
+    height: 78px;
 }  
 header p {
 	font-size: 1.6rem;
-    margin: -3px 0 0 472px;
-    padding-bottom: 22px;
+    position: absolute;
+    left: 50%;
+    margin-left:-480px;
+    margin-top: -3px;
 }
 header p:before {
 	content: url(images/logo.png);
@@ -67,39 +83,45 @@ header li {
 }
 header ul {
 	position: absolute;
-	right: 470px;
-	top: 32px;
+	left: 50%;
+    margin-left: 337px;
+	top: 30px;
 }
 .first_foto {
 	color: #fff;
 	background-image: url(images/main_foto.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	max-height: 350px; 
+	height: 350px; 
 }
 .first_foto .welcome {
+    position: absolute;
+	left: 50%;
+    margin-left: -493px;
+    top: 142px;
 	font-size: 50px;
     font-weight: bold;
-    padding: 64px 0 0 460px;
 }  
 .first_foto .about {
-	font-size: 30px;
-	width: 600px;
-	padding-bottom: 110px;
-    padding-top: 6px;
-    padding-left: 462px;
+    position: absolute;
+	left: 50%;
+    margin-left: -491px;
+    top: 208px;
     line-height: 130%;
+    font-size: 30px;
+	width: 600px;
 } 
-.form {
+ .form {
 	position: absolute;
 	width: 360px;
 	height: 535px;
-	right: 471px;
-	top: 111px;
+	left: 50%;
+    margin-left: 135px;
+	top: 108px;
 	border-bottom: 5px solid #298DD0;
 	background-color: #fff;
 	color: #000;
-}
+}   
 .form .get_started{
     font-size: 25px;
     position: absolute;
@@ -174,40 +196,64 @@ form {
 	background-color: #f2f2f2;
 	font-size: 13px;
     line-height: 150%;
+    height: 250px;
+    position: relative;
+    z-index: -1;
 }   
 .notice .abc{
+    position: absolute;
+	left: 50%;
+    margin-left: -492px;
+    top: 31px;
 	font-size: 15px;
     font-weight: bold;
-    margin-left: 462px;
-    padding: 32px 0 14px 0;
-}
+}   
 .notice p:first-of-type{
+    position: absolute;
+	left: 50%;
+    margin-left: -492px;
+    top: 65px;
     width: 580px;
-    padding: 0px 0 21px 461px;
 }
 .notice p:last-of-type{
-    padding: 0px 0 68px 461px;
+    position: absolute;
+	left: 50%;
+    margin-left: -492px;
+    top: 145px;
     width: 580px;
 }
 /*Дальше идет код для блока с тремя фотографиями*/
 .second_block {
 	width: 100%;
 	background-color: #fff;
+    height: 500px;
 }
 .second_block > p{
 	color: #3498db;
 	font-size: 25px;
-    padding: 32px 0 27px 461px;
-}   
+    position: absolute;
+    left: 50%;
+    margin-left: -493px;
+    margin-top: 32px;
+} 
 .first_column {
-	margin-left: 459px;
-	display: inline-block;
+	position: absolute;
+    left: 50%;
+    margin-left: -493px;
+    margin-top: 90px;
 }
-.second_column,
+.second_column {
+    position: absolute;
+    left: 50%;
+    margin-left: -143px;
+    margin-top: 90px;
+}
 .third_column {
-	margin-left: 55px;
-    display: inline-block;
-}    
+	position: absolute;
+    left: 50%;
+    margin-left: 205px;
+    margin-top: 90px;
+} 
 
 figcaption .row {
 	font-size:15px;
@@ -246,39 +292,48 @@ figcaption .block3{
 }    
 /*тут отзывы*/
  .third_block {
-	width: 1000px;
+	width: 100%;
 	background-color: #fff;
 	position: relative;
-    margin-left: 460px;
+    -margin-left: 460px;
     border-top: 1px solid #f2f2f2;
+    height: 255px;
+     margin-top: 33px;
 }   
 .arrows {
 	position: absolute;
-	right: 10px;
-    top: 28px;
+	left: 50%;
+    margin-left: 415px;
+    top: 30px;
 }
-
 .third_block p:first-of-type {
 	color: #3498db;
 	font-size: 25px;
-    padding: 33px 0 0 4px;
+    position: absolute;
+	left: 50%;
+    margin-left: -490px;
+    top: 33px;
 }
 .cite{
+	position: absolute;
+	left: 50%;
+    margin-left: -492px;
+    top: 118px;
     width: 730px;
-	position: relative;
 	line-height: 150%;
-    padding: 55px 0 100px 4px;
     font-size: 13px;
 }
 .cite:before {
 	content: url(images/start.png);
 	position: absolute;
-	top: 20px;
+	left: 50%;
+    margin-left: -367px;;
+    top: -38px;
 } 
 .cite span{
 	position: absolute;
 	right: 6px;
-	bottom: 68px;
+	bottom: -33px;
 	font-size: 14px;
     font-weight: bold;
 }
@@ -291,23 +346,27 @@ figcaption .block3{
 .dark {
 	background-color: #f2f2f2;
 	width: 100%;
-    padding: 67px 0 122px 0;
+    padding: 67px 0 0 0;
     position: relative;
+    height: 122px;
 }
 .man {
-	position: absolute;
-	right: 498px;
-    bottom: 0;
+    position: absolute;
+	left: 50%;
+    margin-left: 242px;
+    top: -175px;
 }
 .dark p{
+    position: absolute;
+	left: 50%;
+    margin-left: -495px;
+    top: 68px;
 	padding: 15px 0px 15px 30px;
 	color: #fff;
 	background-color: #e74c3c;
 	width: 540px;
 	box-sizing: border-box;
-	position: absolute;
 	font-size: 25px;
-    left: 459px;
 }
 .dark a {
 	text-decoration: none;
@@ -318,32 +377,50 @@ figcaption .block3{
 	top: 15px;
 	right: 22px;
 }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 footer{
 	background-color: #3598DB;
 	height: 200px;
 	color: #fff;
 	font-size: 13px;
+    position: relative;
 }
 footer .logo{
 	width: 177px;
 	font-size: 26px;
-    padding: 55px 0 0 538px;
 	line-height: 110%;
-	position: relative;
+	position: absolute;
+    left: 50%;
+    margin-left: -415px;
+    top: 55px;
 }
 footer .logo:before {
 	content: url(images/bottomlogo.png);
 	position: absolute;
-	right: 189px;
-	top: 51px;
+    left: 50%;
+    margin-left: -167px;
+    top: -3px
 }
 .right {
-	position: relative;
 	border-left: 1px solid #2980b9;
 	height: 60px;
 	width: 700px;
-	left: 714px;
-	top: -60px;
+	position: absolute;
+    left: 50%;
+    margin-left: -240px;
+    top: 55px;
 } 
 .right ul:before {
 	content: "Connect:";
