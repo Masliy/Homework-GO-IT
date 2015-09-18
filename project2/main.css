@@ -28,20 +28,6 @@ table {
 	border-spacing: 0;
 }
 /* end reset browser styles */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width:1000px) {
 body {
 	margin: 0 auto;
@@ -156,7 +142,6 @@ form {
 .form textarea{ 
     height: 75px;
     resize: none;
-    
 }
 .form textarea::-webkit-textarea-placeholder/*не работает*/ ,   
 .form input::-webkit-input-placeholder {
@@ -377,19 +362,6 @@ figcaption .block3{
 	top: 15px;
 	right: 22px;
 }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 footer{
 	background-color: #3598DB;
 	height: 200px;
@@ -437,13 +409,10 @@ footer .logo:before {
 	position: absolute;
 	left: 62px;
 	top: 8px;
-}
-    
-    
+} 
 .right span{
 	position: absolute;
 	top: 36px;
 	left: 22px;
 }
-
 }
