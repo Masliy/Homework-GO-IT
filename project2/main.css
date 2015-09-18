@@ -32,7 +32,7 @@ table {
 body {
 	margin: 0 auto;
 	max-width: 1920px;
-    min-width: 998px;
+    min-width: 1000px;
     font-family: Helvetica, Arial;
 }
 .first_block {
@@ -280,7 +280,6 @@ figcaption .block3{
 	width: 100%;
 	background-color: #fff;
 	position: relative;
-    -margin-left: 460px;
     border-top: 1px solid #f2f2f2;
     height: 255px;
      margin-top: 33px;
@@ -331,9 +330,8 @@ figcaption .block3{
 .dark {
 	background-color: #f2f2f2;
 	width: 100%;
-    padding: 67px 0 0 0;
     position: relative;
-    height: 122px;
+    height: 189px;
 }
 .man {
     position: absolute;

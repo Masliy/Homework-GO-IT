@@ -32,10 +32,11 @@ table {
 
 
 
-@media (min-width:800px) and (max-width:1000px) {
+@media (min-width:800px) and (max-width:999px) {
 body {
 	margin: 0 auto;
-	width: 800px;
+	min-width: 800px;
+    max-width:999px;
     font-family: Helvetica, Arial;
 }
 .first_block {
@@ -44,11 +45,14 @@ body {
 header {
 	background-color: #3498db;
 	color: #fff;
+    height: 78px;
 }  
 header p {
 	font-size: 26px;
-    margin: -3px 0 0 32px;
-    padding-bottom: 23px;
+    position: absolute;
+    left: 50%;
+    margin-left:-367px;
+    margin-top: -4px;
 }
 header p:before {
 	content: url(images/logo.png);
@@ -70,33 +74,42 @@ header li {
 }
 header ul {
 	position: absolute;
-	right: 20px;
-	top: 33px
+	left: 50%;
+    margin-left: 220px;
+	top: 30px;
 }
 .first_foto {
 	color: #fff;
 	background-image: url(images/tablet_main_foto.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	max-height: 350px; 
+	height: 350px;
+    position: relative;
 }
 .first_foto .welcome {
 	font-size: 45px;
     font-weight: bold;
-    padding: 82px 0 0 23px;
+    position: absolute;
+    left: 50%;
+    margin-left: -378px;
+    top: 82px;
 } 
 .first_foto .about {
+    position: absolute;
+	left: 50%;
+    margin-left: -378px;
+    top: 142px;
 	font-size: 25px;
 	width: 400px;
     line-height: 150%;
-    padding: 5px 0 120px 23px;
 }   
 .form {
 	position: absolute;
 	width: 340px;
 	height: 535px;
-	right: 21px;
-	top: 114px;
+	left: 50%;
+    margin-left: 40px;
+	top: 32px;
 	border-bottom: 5px solid #298DD0;
 	background-color: #fff;
 	color: #000;
@@ -172,37 +185,65 @@ form {
 	background-color: #f2f2f2;
 	font-size: 13px;
     line-height: 153%;
+    height: 250px;
+    position: relative;
+    z-index: -1;
 }   
 .notice .abc{
 	font-size: 15px;
     font-weight: bold;
-    padding: 25px 0 14px 23px;
+    position: absolute;
+	left: 50%;
+    margin-left: -376px;
+    top: 26px;
 }
 .notice p:first-of-type{
     width: 400px;
-    padding: 0px 0 21px 23px;
+    position: absolute;
+	left: 50%;
+    margin-left: -378px;
+    top: 60px;
 }
 .notice p:last-of-type{
-    padding: 0px 0 32px 23px;
     width: 400px;
+    position: absolute;
+	left: 50%;
+    margin-left: -378px;
+    top: 160px;
+}
 }
 /*Дальше идет код для блока с тремя фотографиями*/ 
 .second_block {
 	width: 100%;
 	background-color: #fff;
+    height: 718px;
+    position: relative;
 }
 .second_block > p{
 	color: #3498db;
 	font-size: 20px;
-    padding: 36px 0 29px 23px;
+    position: absolute;
+	left: 50%;
+    margin-left: -378px;
+    top: 40px;
 } 
 .first_column,
 .second_column,
 .third_column {
-	margin-left: 21px;
-    position: relative;
-    margin-bottom: 51px;
+	position: absolute;
+	left: 50%;
+    margin-left: -378px;
+    margin-bottom: 51px;  
     display: block;
+}
+.first_column {
+    top: 90px; 
+}
+.second_column {
+    top: 305px; 
+}
+.third_column {
+    top: 520px; 
 }
 figcaption .row,
 figcaption .row2,
@@ -212,8 +253,7 @@ figcaption .row3  {
     position: absolute;
     left: 312px;
     top: -2px;
-    padding: 0;/*без него подтягивается padding с основоного
-    css main, и происходит смещение*/
+    width: 300px;
 }  
 figcaption .block {
     position: absolute;
@@ -241,49 +281,54 @@ figcaption .block3{
     padding-left: 0px;
     line-height: 154%;
 }   
-.view2 {
-	top: 129px;
-}
-.view3 {
-	top: 123px;
-} 
-.third_column {
-    margin-bottom: 0;
-    padding-bottom: 35px;
-} 
 /*тут отзывы*/
+
+
+
+
+
+
+
  .third_block {
-	width: 760px;
+	width: 100%;
+    position: relative;
 	background-color: #fff;
-	position: relative;
-    margin-left: 0;
+    height: 255px;
 }   
 .arrows {
 	position: absolute;
-	right: -19px;
-	top: 30px;
-} 
+	left: 50%;
+    margin-left: 295px;
+    top: 30px;
+}
 .third_block p:first-of-type {
 	color: #3498db;
 	font-size: 20px;
-    padding: 39px 0 0 23px;
+    position: absolute;
+	left: 50%;
+    margin-left: -376px;
+    top: 40px;
 }
 .cite{
     width: 542px;
-	position: relative;
 	line-height: 150%;
-    padding: 55px 0 80px 22px;
+    position: absolute;
+	left: 50%;
+    margin-left: -376px;
+    top: 120px;
     font-size: 13px;
 }
 .cite:before {
 	content: url(images/start.png);
 	position: absolute;
-	top: 20px;
+	left: 50%;
+    margin-left: -270px;
+    top: -35px;
 } 
 .cite span{
 	position: absolute;
 	right: 10px;
-	bottom: 52px;
+	bottom: -23px;
 	font-size: 13px;
     font-weight: bold;
 }
@@ -296,24 +341,26 @@ figcaption .block3{
 .dark {
 	background-color: #f2f2f2;
 	width: 100%;
-    padding: 67px 0 124px 0;
+    height: 189px;
     position: relative;
 }
 .man {
 	position: absolute;
-	right: 22px;
-	top:-172px;
+	left: 50%;
+    margin-left: 153px;
+    top: -171px;
 }
 .dark p{
+    position: absolute;
+	left: 50%;
+    margin-left: -378px;
+    top: 68px;
 	padding: 18px 0px 18px 30px;
 	color: #fff;
 	background-color: #e74c3c;
 	width: 470px;
 	box-sizing: border-box;
-	position: absolute;
 	font-size: 20px;
-    left: 20px;
-    z-index: 1;
 }
 .dark a {
 	text-decoration: none;
@@ -329,13 +376,17 @@ footer{
 	height: 193px;
 	color: #fff;
 	font-size: 13px;
+    position: relative;
 }
 footer .logo{
 	width: 177px;
 	font-size: 26px;
     padding: 54px 0 0 100px;
 	line-height: 110%;
-	position: relative;
+	position: absolute;
+    left: 50%;
+    margin-left: -399px;
+    top: 2px
 }
 footer .logo:before {
 	content: url(images/bottomlogo.png);
@@ -344,12 +395,13 @@ footer .logo:before {
 	top: 48px;
 }
 .right {
-	position: relative;
 	border-left: 1px solid #2980b9;
 	height: 60px;
 	width: 300px;
-	left: 276px;
-	top: -60px;
+	position: absolute;
+    left: 50%;
+    margin-left: -123px;
+    top: 55px;
     
     
 } 
