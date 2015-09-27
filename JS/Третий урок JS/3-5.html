@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> 3-5 </title>
+</head>
+	<body>
+		<script>
+	function getDesk() {
+		var result = "";
+		for (var j = 0; j < 8; j++) {
+			for (var i = 0; i < 8; i++) {
+				result += ((i+j)%2) ? " " : "#";
+			}
+			result += "\n";
+		}
+		return result;
+	}
+	console.log( getDesk() );
+		</script>
+	</body>
+</html>
