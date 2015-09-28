@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> 4-3 </title>
+</head>
+	<body>
+		<script>
+		var word = prompt("Введите что хотите, но если это что-то больше 20 букв то обрежется");
+function checkLength(word) {
+	if (word.length > 20) {
+		alert( word.substring(0,20) + "...");
+	}
+	else {
+		alert( word );
+	}
+}
+checkLength( word );
+
+		</script>
+	</body>
+</html>
