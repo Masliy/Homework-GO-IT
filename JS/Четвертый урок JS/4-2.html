@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> 4-2 </title>
+</head>
+	<body>
+		<script>
+		var word = prompt("Введите что хотите, но без слов sex и spam");
+function checkSpam(word) {
+	if (word.indexOf("spam") != -1 || word.indexOf("sex") != -1 ) {
+		alert(  "Ты что, читать не умеешь? Никакого спама и порнухи!");
+	}
+	else {
+		alert( word );
+	}
+}
+checkSpam( word );
+
+		</script>
+	</body>
+</html>
