@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> 4-1 </title>
+</head>
+	<body>
+		<script>
+		var result;
+		var n = prompt("Введите число Фибоначчи");
+			function  fib(n) {
+				if(n <= 1) {
+					return n;
+				} else {
+					return result = fib(n-1) + fib(n-2);
+				}
+			}
+			alert(fib(n));
+
+		</script>
+	</body>
+</html>
