@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> 5-2 </title>
+</head>
+	<body>
+		<script>
+		var image = {
+		    width: 100,
+		    height: 400,
+		    title: 'Cool image'
+		};
+function multiplyNumeric(image) {
+	for (var key in image) {
+		if (typeof image[key] == "string") {
+			console.log( image[key]);
+		}
+		else {
+			console.log( image[key] * 2);
+		}
+	}
+}
+	multiplyNumeric(image);
+		</script>
+	</body>
+</html>
