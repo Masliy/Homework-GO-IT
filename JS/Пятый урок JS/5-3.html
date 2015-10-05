@@ -8,22 +8,22 @@
 		<script>
 		var arr = [];
 
-
 		while (true){
-			var input = prompt("Введите число");
+			var input = +prompt("Введите число");
+
 			if (input) {
-			arr.push( input * 1);
+			arr.push( input);
 			}
 
 			if ( !input ) break;
-}
+		}
 			console.log( arr );
 
 			var result = arr.reduce(function(sum, current) {
   		return sum + current;
-			}, 0);
+		});
 
-			console.log( result );
+			alert( result );
 
 		</script>
 	</body>
