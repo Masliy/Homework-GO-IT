@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> 5-3 </title>
+</head>
+	<body>
+		<script>
+		var arr = [];
+
+
+		while (true){
+			var input = prompt("Введите число");
+			if (input) {
+			arr.push( input * 1);
+			}
+
+			if ( !input ) break;
+}
+			console.log( arr );
+
+			var result = arr.reduce(function(sum, current) {
+  		return sum + current;
+			}, 0);
+
+			console.log( result );
+
+		</script>
+	</body>
+</html>
