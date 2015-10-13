@@ -49,9 +49,10 @@ body {
 	background-image: url(images/world_yours.jpg);
 	background-size: cover;
 	background-repeat:  no-repeat;
-	color: white;
 	height: 100%;
 	position: relative;
+	z-index: 0;
+
 }
 
 .first_article {
@@ -62,6 +63,7 @@ body {
     left: 20px;
     bottom: 20px;
     top: 20px;
+    z-index: 5;
 
 }
 
@@ -88,13 +90,16 @@ padding-top: 30px;
 	transition: all .5s;
 
 
+
 }
 
 .right_column {
 	float: right;
 	width: 50%;
 	left: 50%;
-	height: 100%; 
+	height: 100%;
+
+
 }
 
 .first_article:hover {
@@ -155,11 +160,15 @@ font-weight: bold;
 
 .first_article_email:hover {
 	color: #8968CD;
+
+
+
 }
 
 .right_column:hover .invisible {
 	font-size: 13px;
 	transition: .5s;
+
 }
 
 
@@ -196,18 +205,42 @@ font-weight: bold;
 	top: 40px;
 	visibility: hidden;
 	transition: 0.4s;
+	z-index: 5;
 }
 .return:hover {
 	cursor: pointer;
 }
 
-.foto {
+.foto,
+.foto1
+ {
 	display: none;
 	
 }
 
-.switchable input:checked~.foto  {
+.switchable input:checked~.foto,
+.switchable input:checked~.foto1  {
+	width: 100%;
+	background-size: cover;
+	background-repeat:  no-repeat;
+	height: 100%;
 	display: block;
-	transform: translateY(900px);
-	
+}
+
+.switchable input:checked~.foto {
+	background-image: url(images/vetryak.jpg);
+}
+.switchable input:checked~.foto1 {
+	background-image: url(images/logotip.jpg);
+	z-index: -2;
+}
+
+/*необходим для экранирования элементов, появляющихся при разворачивании*/
+/*иначе при нажатии в любом месте происходит сворачивание*/
+.safe_mode { 
+	position: fixed;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	z-index: 2;
 }
