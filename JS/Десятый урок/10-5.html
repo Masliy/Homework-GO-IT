@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>10-5</title>
+</head>
+<body>
+	<script>
+		function  longestWord( str ) {
+			var arr = str.split(" ").sort(function(a, b) {
+				return b.length - a.length;
+			});
+
+			return arr[0];
+		}
+		
+		console.log( longestWord( "Web Development Tutorial" ) );
+	</script>
+</body>
+</html>
