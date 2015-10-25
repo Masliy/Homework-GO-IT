@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>10-1</title>
+</head>
+<body>
+	<script>
+		var obj = {
+			person1Age: 20,
+			person1Name: 'Ivanov',
+			person2Age: 30,
+			person2Name: 'Petrov',
+			person3Age: 40,
+			person3Name: 'Sidorov'
+		};
+
+		var ages = [];
+		var names = [];
+
+		for ( var key in obj ) {
+			if ( typeof obj[key] == "number" ) {
+				ages.push( obj[key] );  
+			} else {
+				names.push( obj[key] );           
+			}
+		}
+
+		console.log( ages );
+		console.log( names );
+
+
+	</script>
+
+
+</body>
+</html>

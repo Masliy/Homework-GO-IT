@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>10-2</title>
+</head>
+<body>
+	<script>
+		function getMaxNumber( arr ) {
+			arr.sort( function(a, b) {
+				return b - a;
+			})
+
+			return arr[0];
+		}
+
+		console.log( getMaxNumber([1,30,40,2,7]) );
+		console.log( getMaxNumber([1,15,-20,2,-7]) );
+	</script>
+
+
+</body>
+</html>
