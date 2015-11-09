@@ -1,0 +1,431 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+
+
+
+@media (min-width:800px) and (max-width:999px) {
+body {
+	margin: 0 auto;
+	min-width: 800px;
+    max-width:999px;
+    font-family: Helvetica, Arial;
+}
+.first_block {
+	position: relative;
+}
+header {
+	background-color: #3498db;
+	color: #fff;
+    height: 78px;
+}  
+header p {
+	font-size: 26px;
+    position: absolute;
+    left: 50%;
+    margin-left:-367px;
+    margin-top: -4px;
+}
+header p:before {
+	content: url(images/logo.png);
+	position: relative;
+	left: -15px;
+	top: 17px;
+}
+header ul:before {
+	content: "Connect:";
+	font-size: 13px;
+	position: relative;
+	top: -6px;
+    left: -2px;
+}
+header li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 2px;
+}
+header ul {
+	position: absolute;
+	left: 50%;
+    margin-left: 220px;
+	top: 30px;
+}
+.first_foto {
+	color: #fff;
+	background-image: url(images/tablet_main_foto.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 350px;
+    position: relative;
+}
+.first_foto .welcome {
+	font-size: 45px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    margin-left: -378px;
+    top: 82px;
+} 
+.first_foto .about {
+    position: absolute;
+	left: 50%;
+    margin-left: -378px;
+    top: 142px;
+	font-size: 25px;
+	width: 400px;
+    line-height: 150%;
+}   
+.form {
+	position: absolute;
+	width: 340px;
+	height: 535px;
+	left: 50%;
+    margin-left: 40px;
+	top: 32px;
+	border-bottom: 5px solid #298DD0;
+	background-color: #fff;
+	color: #000;
+}   
+.form .get_started{
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}   
+form {
+    position: absolute;
+    left: 20px;
+    top: 78px;
+    width: 300px;
+    height: 430px;
+}
+.form input,
+.form textarea {
+    background-color: #f2f2f2;
+    width: 300px;
+    height: 36px;
+    box-sizing: border-box;
+    padding: 6px 0 10px 14px;
+    word-spacing: .1em;
+    margin-bottom: 10px;
+    border: 1px solid #DFDFDF ;
+    line-height: 17px;
+}
+.form input:focus,
+.form textarea:focus {
+    box-shadow: 0 0 2px 2px rgba(0,0,205,.9);
+    outline: none; 
+}
+.form textarea{ 
+    height: 75px;
+    resize: none; 
+}
+.form textarea::-webkit-textarea-placeholder/*не работает*/ ,   
+.form input::-webkit-input-placeholder {
+    font-size: 15px;
+    color: #000;
+}
+.form textarea::-moz-placeholder /*не работает*/,
+.form input::-moz-placeholder{
+    color: #000;
+    font-size: 15px;
+}
+.form input[type="submit"]{
+	position: absolute;
+	bottom: 2px;
+	left: 53px;
+	background-color: #e84c3d;
+	color: #fff;
+    width: 202px;
+    height: 52px;
+    box-sizing: border-box;
+	padding:7px 0 10px 5px;
+	font-size: 20px;
+    margin-bottom: 0;
+}
+.form input[type="submit"]:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,.8);
+	cursor: pointer;
+}
+.choice {
+	position: absolute;
+	top:13px;
+	right: 10px;
+    z-index: 1;
+}
+.notice {
+	background-color: #f2f2f2;
+	font-size: 13px;
+    line-height: 153%;
+    height: 250px;
+    position: relative;
+    z-index: -1;
+}   
+.notice .abc{
+	font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+	left: 50%;
+    margin-left: -376px;
+    top: 26px;
+}
+.notice p:first-of-type{
+    width: 400px;
+    position: absolute;
+	left: 50%;
+    margin-left: -378px;
+    top: 60px;
+}
+.notice p:last-of-type{
+    width: 400px;
+    position: absolute;
+	left: 50%;
+    margin-left: -378px;
+    top: 160px;
+}
+}
+/*Дальше идет код для блока с тремя фотографиями*/ 
+.second_block {
+	width: 100%;
+	background-color: #fff;
+    height: 718px;
+    position: relative;
+}
+.second_block > p{
+	color: #3498db;
+	font-size: 20px;
+    position: absolute;
+	left: 50%;
+    margin-left: -378px;
+    top: 40px;
+} 
+.first_column,
+.second_column,
+.third_column {
+	position: absolute;
+	left: 50%;
+    margin-left: -378px;
+    margin-bottom: 51px;  
+    display: block;
+}
+.first_column {
+    top: 90px; 
+}
+.second_column {
+    top: 305px; 
+}
+.third_column {
+    top: 520px; 
+}
+figcaption .row,
+figcaption .row2,
+figcaption .row3  {
+	font-size:15px;
+    font-weight: bold;
+    position: absolute;
+    left: 312px;
+    top: -2px;
+    width: 300px;
+}  
+figcaption .block {
+    position: absolute;
+	top: 31px;
+	left: 311px;
+	font-size: 13px;
+	line-height: 155%;
+	width: 435px;
+	overflow: hidden;
+    text-align: left;
+}
+figcaption .block span{
+    display: inline-block;
+    transform: scale(0.2,1);
+    margin-left: -5px;
+}
+.view {
+	display: block;
+	position: absolute;
+	left: 313px;
+	top: 127px;
+}
+figcaption .block2,
+figcaption .block3{
+    padding-left: 0px;
+    line-height: 154%;
+}   
+/*тут отзывы*/
+
+
+
+
+
+
+
+ .third_block {
+	width: 100%;
+    position: relative;
+	background-color: #fff;
+    height: 255px;
+}   
+.arrows {
+	position: absolute;
+	left: 50%;
+    margin-left: 295px;
+    top: 30px;
+}
+.third_block p:first-of-type {
+	color: #3498db;
+	font-size: 20px;
+    position: absolute;
+	left: 50%;
+    margin-left: -376px;
+    top: 40px;
+}
+.cite{
+    width: 542px;
+	line-height: 150%;
+    position: absolute;
+	left: 50%;
+    margin-left: -376px;
+    top: 120px;
+    font-size: 13px;
+}
+.cite:before {
+	content: url(images/start.png);
+	position: absolute;
+	left: 50%;
+    margin-left: -270px;
+    top: -35px;
+} 
+.cite span{
+	position: absolute;
+	right: 10px;
+	bottom: -23px;
+	font-size: 13px;
+    font-weight: bold;
+}
+.cite span:after{
+	content: url(images/stop.png);
+	position: absolute;
+	top: 32px;
+	right: -6px;
+}
+.dark {
+	background-color: #f2f2f2;
+	width: 100%;
+    height: 189px;
+    position: relative;
+}
+.man {
+	position: absolute;
+	left: 50%;
+    margin-left: 153px;
+    top: -171px;
+}
+.dark p{
+    position: absolute;
+	left: 50%;
+    margin-left: -378px;
+    top: 68px;
+	padding: 18px 0px 18px 30px;
+	color: #fff;
+	background-color: #e74c3c;
+	width: 470px;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+.dark a {
+	text-decoration: none;
+}
+.dark p:after{
+	content: url(images/wright.png);
+	position: absolute;
+	top: 17px;
+	right: 33px;
+} 
+footer{
+	background-color: #3598DB;
+	height: 193px;
+	color: #fff;
+	font-size: 13px;
+    position: relative;
+}
+footer .logo{
+	width: 177px;
+	font-size: 26px;
+    padding: 54px 0 0 100px;
+	line-height: 110%;
+	position: absolute;
+    left: 50%;
+    margin-left: -399px;
+    top: 2px
+}
+footer .logo:before {
+	content: url(images/bottomlogo.png);
+	position: absolute;
+	right: 187px;
+	top: 48px;
+}
+.right {
+	border-left: 1px solid #2980b9;
+	height: 60px;
+	width: 300px;
+	position: absolute;
+    left: 50%;
+    margin-left: -123px;
+    top: 55px;
+    
+    
+} 
+.right ul:before {
+	content: "Connect:";
+	position: absolute;
+    left: -40px;
+    top: 2px;
+}
+.right li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 3px;
+}
+.right ul {
+	position: absolute;
+	left: 62px;
+	top: -2px;
+}
+.right span{
+	position: absolute;
+	top: 26px;
+	left: 22px;
+     width: 470px;
+    line-height: 125%;
+}
+}
