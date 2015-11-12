@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>17-1</title>
+    <style>
+    .external {
+        background-color: yellow;
+    }
+    </style>
+</head>
+
+<body>
+    <a name="list">список</a>
+    <ul>
+        <li><a href="http://google.com">http://google.com</a></li>
+        <li><a href="/tutorial">/tutorial.html</a></li>
+        <li><a href="local/path">local/path</a></li>
+        <li><a href="ftp://ftp.com/my.zip">ftp://ftp.com/my.zip</a></li>
+        <li><a href="http://nodejs.org">http://nodejs.org</a></li>
+        <li><a href="http://internal.com/test">http://internal.com/test</a></li>
+    </ul>
+    <script>
+    /*function search the elements and assign the class to them.  
+            The first parameter - what must be, second - what mustn't be (or "null"),
+            third - the name of the class . All in quotes( "")*/
+    function setStyle(mustHave, mustNotHave, nameClass) {
+        this.mustHave = mustHave;
+        this.mustNotHave = mustNotHave;
+        this.nameClass = nameClass;
+        var elem = document.querySelectorAll("*");
+
+        for (var key in elem) {
+            if ((elem[key].toString().indexOf(mustHave) != -1) && (elem[key].toString().indexOf(mustNotHave) == -1)) {
+                elem[key] = (elem[key].className = nameClass);
+            }
+            if ((elem[key].toString().indexOf(mustHave) != -1) && (elem[key].toString().indexOf(mustNotHave) != -1)) {
+                continue;
+            }
+        }
+    }
+    setStyle("http", "internal.com", "external");
+    </script>
+</body>
+
+</html>
