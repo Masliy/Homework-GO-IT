@@ -40,7 +40,9 @@
             }
         }
     }
-    setStyle("http", "internal.com", "external");
+    document.onclick = function() {
+    	return setStyle("http", "internal.com", "external");
+    }
     </script>
 </body>
 
