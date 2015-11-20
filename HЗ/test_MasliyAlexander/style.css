@@ -1,0 +1,325 @@
+/* reset browser styles */
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1.2;
+}
+
+ol {
+    padding-left: 1.4em;
+    list-style: decimal;
+}
+
+ul {
+    padding-left: 1.4em;
+    list-style: square;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* end reset browser styles */
+
+
+/* ------------------------------------------------------------------- */
+
+html {
+    background: #fff;
+    background: url(img/bg.png);
+    height: 100%;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content {
+    max-width: 800px;
+}
+
+.main {
+	max-width: 800px;
+    border: 1px solid red;
+    word-wrap: break-word;
+    display: inline-block;
+    background: #fff;
+    margin: 165px auto 0 auto;
+    position: relative;
+}
+
+/* ------------------------------------------------------------------- */
+
+.side_with_button {
+    width: 40%;
+    float: left;
+    padding-top: 10px;
+    padding: 0 0px 0 20px;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.blue_button {
+    border-radius: 20px;
+    color: #fff;
+    background: #55b5fe;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #55b5fe 13%, #1e5799 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #55b5fe 13%, #1e5799 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #55b5fe 13%, #1e5799 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#55b5fe', endColorstr='#1e5799', GradientType=0);
+    /* IE6-9 */
+    font: 18px Arial, sans-serif;
+    text-align: center;
+    padding: 12px;
+    cursor: pointer;
+    margin: 10px 0 30px 0;
+    width: 100%;
+}
+
+.lorem1 {
+	margin-top: -15px;
+    padding: 0 20px 0 20px;
+    font: 18px Arial, sans-serif;
+    text-align: justify;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.crooked {
+    width: 100%;
+    background: url(img/222.png) repeat-x;
+    margin-bottom: 20px;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+
+/* ------------------------------------------------------------------- */
+
+.red_head {
+    color: #dd567f;
+    text-align: center;
+    font: 24px Arial, sans-serif;
+
+}
+
+.discription {
+    width: 37.5%;
+    float: left;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+     border: 1px solid #ddd;  
+   /* background: url(img/description.png) no-repeat;
+   background-size: cover; */
+    border-radius: 25px;
+    margin-top: 10px;
+   /*  visibility: hidden; */
+}
+.push:after{
+   content: url(img/arrow.png);
+   position: absolute;
+   bottom: -55px;
+   right: 20px;
+}
+
+.wrapper_for_border {
+	border: 1px dashed #ddd; 
+    padding: 15px 25px 20px 25px;
+    border-radius: 25px;
+}
+.lorem_in_description {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font: 14px Arial, sans-serif;
+    position: relative;
+}
+
+/* ------------------------------------------------------------------- */
+
+.rating {
+    position: absolute;
+	right: 0;
+    text-align: center;	
+ 	width: 20%;
+    padding: 0 10px 0 10px;
+     box-sizing: border-box;
+}
+.heard,
+.clock,
+.pen {
+    position: absolute;
+    top: 13px;
+}
+.heard {
+    right: 112px;
+}
+.heard_progress {
+    position: absolute;
+    top: -100px;
+    right: 125px;
+}
+.clock {
+    right: 65px;
+}
+.clock_progress {
+    position: absolute;
+    top: -30px;
+    right: 65px;
+}
+.pen {
+    right: 15px;
+}
+.pen_progress {
+    position: absolute;
+    top: -60px;
+    right: 20px;
+}
+.crooked_rating {
+	top: 100px;
+	margin-top: 60px;
+}
+/* ------------------------------------------------------------------- */
+.below_main {
+clear: both;
+text-align: left;
+position: relative;
+
+}
+.cod {
+position: absolute;
+ left: 15px;
+}
+.footer_center {
+ 	margin-left: 115px;
+ 	margin-right: 125px;	
+	text-indent: 15px;
+	text-align: justify;
+	font: 12px Arial, sans-serif;
+	padding-bottom: 80px;
+	position: relative;
+}
+.footer_right {
+position: absolute;
+text-align: right;
+ width: 100px;
+  right: 15px;
+  top: 0;
+}
+.crooked1 {
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+
+}
