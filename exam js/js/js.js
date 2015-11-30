@@ -3,7 +3,7 @@ var stopTimer;
 var enemy = document.getElementById("enemy");
 var step = 5; /*начальная позиция цели, margin-left: 30%;*/
 var leftSideEnemy = ['url(img/one.png)', 'url(img/two.png)', 'url(img/three.png)'];
-var frontEnemy = ['url(img/front.png)', 'url(img/gunmanfire.png)'];
+var frontEnemy = ['url(img/front.png)', 'url(img/gunmanfire.png)', 'url(img/deadBody.png)', 'url(img/deadBody2.png)', 'url(img/heat.png)'];
 var counterImage = 0;
 var necessaryTime = 1.20;
 var speed;
@@ -75,6 +75,7 @@ function enemyMove() {
                 };
                 if (necessaryTime > speed) {
                     document.getElementById("fire").innerHTML = "ты выиграл";
+                    enemy.style.backgroundImage = frontEnemy[3];
                 } else if(necessaryTime < speed){
                     document.getElementById("fire").innerHTML = "трупак";
                 }

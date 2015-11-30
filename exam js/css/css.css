@@ -82,9 +82,8 @@ header {
 
 .enemy {
 	height: 60%;
-	background-image: url(../img/one.png);
 	background-repeat: no-repeat;
-	background-size:100% 100%;
+	background-size:100%;
 	width: 15%;
 	position: absolute;
 	top: 25%;
