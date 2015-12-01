@@ -20,9 +20,10 @@ footer,
 header {
 	height: 15%;
 	background-color: #000;
-	
 	position: relative;
-
+}
+footer{
+color: #fff;
 }
 .main_window {
 	background: url(../img/bg.png) no-repeat;
@@ -83,13 +84,17 @@ header {
 .enemy {
 	height: 60%;
 	background-repeat: no-repeat;
-	background-size:100%;
+	background-size:100% 100%;
 	width: 15%;
 	position: absolute;
 	top: 25%;
 	/* left: 50%; */
 /* 	margin-left: 30%; */
 }
+
+/* .enemyWin {
+	background-image: url(../img/frontWin1.png);
+} */
 .notice {
 	font-size: 30px;
 	background-color: #fff;
@@ -109,4 +114,26 @@ header {
 	left: 50%;
 	margin-left: -20px;
 	bottom: -31px;
+}
+
+.points,
+.reward {
+	position: absolute;
+	top: 20%;
+	margin-left: 10%;
+	font-size: 50px;
+}
+.reward {
+	top: 60%;
+	font-size: 30px;
+}
+.points {
+	color: green;
+}
+.pointsInner {
+	position: absolute;
+	top: 5%;
+	margin-left: 150%;
+	font-size: 50px;
+	color: green;
 }
